@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Help & Support | Fitness24 Bury</title>
+  <!-- Google Fonts + Font Awesome 6 -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/helpAndSupport.css">
+  <link rel="stylesheet" href="css/style.css">
+
+    <link rel="alternate" hreflang="en-gb" href="https://fitness24bury.co.uk/helpAndSupport.html">
+<link rel="alternate" hreflang="x-default" href="https://fitness24bury.co.uk/helpAndSupport.html">
+<link rel="canonical" href="https://fitness24bury.co.uk/helpAndSupport.html">
+
+</head>
+<body>
+
+    <!-- navbar start -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="logo">
+                                        <img src="images/logo.png" alt="Fitness24 Logo" title="Fitness24 - 24/7 Premium Gym and Fitness Center">
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>6–7 Brook Street, Albert Works, Bury BL9 6AH</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Call : 0161 243 8124</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <span>24 Hour Gym</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- navbar end -->
+
+    <nav class="bottom-nav">
+        <div class="nav-shape">
+            <div class="hamburger-btn" onclick="toggleMenu()">
+                <span class="ham-icon"></span>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="openinghourse.html">Opening Hours</a>
+            <a href="personaltrainingpage.html">Personal Training</a>
+            <a href="helpAndSupport.html" class="active">Help &amp; Support</a>
+            <div class="nav-item-dropdown">
+                <a href="#" class="dropdown-trigger" onclick="toggleDropdown(event, this)">Exercises <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-panel">
+                    <a href="ab&core.html">Ab &amp; Core</a>
+                    <a href="Arm&Shoulder.html">Arm &amp; Shoulder</a>
+                    <a href="leg.html">Leg Exercises</a>
+                    <a href="glute.html">Glute Exercises</a>
+                    <a href="back.html">Back Exercises</a>
+                    <a href="chest.html">Chest Exercises</a>
+                    <a href="fullbody.html">Full Body</a>
+                    <a href="cardio.html">Cardio</a>
+                </div>
+            </div>
+            <a href="https://secure.ashbournemanagement.co.uk/signupUK/index.aspx?fn=GRCC4">Sign Up</a>
+        </div>
+    </nav>
+
+<div class="help-wrapper">
+  <!-- Hero section -->
+  <div class="help-hero fade-up">
+    <div class="hero-glow"></div>
+    <span class="hero-badge"><i class="fas fa-headset"></i> 24/7 Assistance</span>
+    <h1>Help & Support<br><span style="color:var(--brand-cyan);">We're here for you</span></h1>
+    <p>Instant answers, expert guidance, and a caring team — everything you need to thrive.</p>
+  </div>
+
+
+  <!-- original Hours Section (business hours matching theme) -->
+  <div class="hours-section" id="hours">
+    <div class="hours-container">
+      <div class="hours-card">
+        <div class="hours-header">
+          <i class="fas fa-clock"></i>
+          <h2>Support Hours</h2>
+          <p>We are available when you need us most</p>
+        </div>
+        <div class="hours-list">
+          <div class="hour-row"><span>Monday - Friday</span><span class="time-slot">8:00 AM – 10:00 PM</span></div>
+          <div class="hour-row"><span>Saturday</span><span class="time-slot">9:00 AM – 8:00 PM</span></div>
+          <div class="hour-row"><span>Sunday</span><span class="time-slot highlight-cyan">10:00 AM – 6:00 PM</span></div>
+          <div class="hour-row"><span>Holidays</span><span class="time-slot">Limited chat (Email support)</span></div>
+        </div>
+        <div class="hours-footer">
+          <p><i class="fas fa-phone"></i> 0161 243 8124 • Available 24/7</p>
+          <button class="book-btn" id="reminderBtn"><i class="fas fa-bell"></i> Get Reminder</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FAQ Section -->
+  <div class="faq-section fade-up">
+    <div class="faq-header">
+      <span class="hero-badge"><i class="fas fa-question-circle"></i> FAQs</span>
+      <h2>Frequently Asked <span style="color:var(--brand-cyan)">Questions</span></h2>
+      <p>Everything you need to know about Fitness24 Bury</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Is it really 24/7? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Yes — genuinely 24 hours a day, 7 days a week, 365 days a year. No limited hours, no exceptions. You get a key fob that grants you access at 3am on Christmas Day if that's when you want to train. Your schedule, your rules.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Is there a joining fee? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>No joining fee — right now you can sign up and pay nothing to get started. Just your monthly membership and you're in. This offer won't last forever, so the best time to join is today.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How busy does it get? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Much quieter than a commercial gym. Fitness24 is a private members gym, so you'll never walk in to a sea of people waiting for equipment. Most members say it feels like having the gym to themselves — especially during off-peak hours.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Is it beginner friendly? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Absolutely. Whether it's your first time in a gym or you're returning after a long break, Fitness24 is a judgement-free environment. Our personal trainers are available to show you around and help you build a plan that actually works for you.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Can I cancel anytime? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Yes. Our rolling monthly contract has no lock-in — cancel with one month's notice, no questions asked. If you want the lowest price, our 12-month contract gives you the best value, but the choice is entirely yours.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          What are your opening hours? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Fitness24 Bury is open 24 hours a day, 7 days a week, 365 days a year. Train whenever suits your schedule — no closing times, no excuses.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How do I get access to the gym? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Once you sign up, you'll receive a key fob or app-based access. Our biometric entry system ensures only members can enter, keeping the gym safe and private at all hours.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Does the gym have a sauna and recovery centre? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Yes! Fitness24 Bury features a premium recovery centre including a sauna, private showers, and changing suites — all included with your membership.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Is parking available? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Yes, free parking is available on site at 6–7 Brook Street, Albert Works, Bury BL9 6AH. No need to worry about finding a space before your workout.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Do you offer personal training? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Absolutely. Our certified personal trainers specialise in fat loss, muscle gain, and sports performance. Sessions can be booked directly through the gym or via the sign-up portal.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How do I cancel or freeze my membership? <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>You can manage your membership through the Ashbourne Management portal or by contacting us directly at 0161 243 8124. Our team will assist you with any changes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Form Section -->
+  <div class="contact-form-section fade-up">
+    <div class="contact-form-inner">
+      <div class="contact-form-text">
+        <span class="hero-badge"><i class="fas fa-envelope"></i> Get In Touch</span>
+        <h2>Send Us a <span style="color:var(--brand-cyan)">Message</span></h2>
+        <p>Have a question not covered above? Fill in the form and our team will get back to you within 2 hours.</p>
+        <div class="contact-detail-list">
+          <div class="contact-detail-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>6–7 Brook Street, Albert Works, Bury BL9 6AH</span>
+          </div>
+          <div class="contact-detail-item">
+            <i class="fas fa-phone"></i>
+            <span>0161 243 8124</span>
+          </div>
+          <div class="contact-detail-item">
+            <i class="fas fa-clock"></i>
+            <span>Open 24 Hours, 7 Days a Week</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="submitForm(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name</label>
+            <input type="text" placeholder="John" required>
+          </div>
+          <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" placeholder="Smith" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="john@example.com" required>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <select>
+            <option>Membership Enquiry</option>
+            <option>Personal Training</option>
+            <option>Recovery Centre</option>
+            <option>Technical Issue</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Tell us how we can help..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Simple JavaScript for interactive demo (reminder / alert toast style) -->
+<script>
+  (function() {
+    const reminderBtn = document.getElementById('reminderBtn');
+    const supportCta = document.getElementById('supportCta');
+    
+    if(reminderBtn) {
+      reminderBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert("🔔 We'll send you a reminder with our support hours. Check your email (demo) – stay brilliant!");
+      });
+    }
+    if(supportCta) {
+      supportCta.addEventListener('click', function() {
+        alert("💬 Live chat is ready! An expert will connect you within seconds. (Demo experience)");
+      });
+    }
+    // Additional interactive: any "support-link" demo
+    const links = document.querySelectorAll('.support-link');
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert("✨ Our help center is fully loaded. Explore detailed resources anytime.");
+      });
+    });
+  })();
+
+  function toggleFaq(btn) {
+    const item = btn.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  function submitForm(e) {
+    e.preventDefault();
+    alert("Thank you! Your message has been sent. We'll get back to you within 2 hours.");
+    e.target.reset();
+  }
+</script>
+<!-- footer start -->
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-top-logo">
+                                <img src="images/logo.png" alt="Fitness24 Logo" title="Fitness24 - 24/7 Premium Gym and Fitness Center">
+        </div>
+
+        <div class="enquiry-bar">
+            <input type="tel" placeholder="Enter your phone number">
+            <button type="submit" class="enquire-btn">ENQUIRE</button>
+        </div>
+
+        <div class="footer-content">
+            <div class="footer-brand">
+                                         <img src="images/logo.png" alt="Fitness24 Logo" title="Fitness24 - 24/7 Premium Gym and Fitness Center">
+
+                </div>
+
+            <div class="footer-links">
+                <h4>Menus</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://secure.ashbournemanagement.co.uk/signupUK/index.aspx?fn=GRCC4">Sign Up TODAY</a></li>
+                        <li><a href="Gyminbury.html">Gym In Bury</a></li>
+                        <li><a href="Bestgyminbury.html"> Best Gym In Bury</a></li>
+                        <li><a href="Membershipsinformation.html"> Membership Information</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>6–7 Brook Street, Albert Works, Bury BL9 6AH</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>Call : 0161 243 8124</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <span>24 Hour Gym</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-socials">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 All Rights Reserved. Developed by Imperium Media</p>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+
+<script src="js/script.js"></script>
+</body>
+</html>

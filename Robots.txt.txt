@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Important Pages Allowed
+Allow: /index.html
+Allow: /about.html
+Allow: /contact.html
+Allow: /cardio.html
+Allow: /chest.html
+Allow: /back.html
+Allow: /fullbody.html
+Allow: /glute.html
+Allow: /leg.html
+Allow: /Gyminbury.html
+Allow: /personaltrainingpage.html
+Allow: /openinghourse.html
+Allow: /Membershipsinformation.html
+Allow: /helpAndSupport.html
+
+# Block system folders (safe practice)
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /.local/
+Disallow: /logs/
+
+# Sitemap (VERY IMPORTANT for SEO)
+Sitemap: https://fitness24bury.co.uk/sitemap.xml

@@ -1,0 +1,246 @@
+:root {
+    --brand-cyan: #29d8ff;
+    --brand-purple: #3C0E78;
+    --text-dark: #1a1a1a;
+    --spacing-xl: 120px;
+}
+
+
+.glute-wrapper { max-width: 1200px; margin: 0 auto; padding: 0 30px; }
+
+/* Section 1: Hero Spacing Fix */
+.glute-hero-sec { padding: var(--spacing-xl) 0; border-bottom: 1px solid #f0f0f0; }
+.glute-header-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 80px; align-items: end; }
+.glute-giant-text { font-size: 5rem; font-weight: 900; line-height: 0.9; color: var(--brand-purple); }
+.cyan-outline { -webkit-text-stroke: 1px var(--brand-cyan); color: transparent; }
+.glute-parts { display: flex; gap: 20px; margin-top: 30px; }
+.glute-parts span { font-size: 13px; padding: 5px 15px; background: #f0faff; border-radius: 50px; font-weight: 600; }
+
+/* Section 2: Vault (Image/Text Spacing) */
+.vault-sec { padding: 100px 0; background: #fff; }
+.vault-grid { display: flex; gap: 100px; align-items: center; }
+.vault-image img { width: 100%; border-radius: 30px; box-shadow: 20px 20px 0px var(--brand-purple); }
+.vault-content { flex: 1.2; }
+.vault-tips { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 30px; }
+.tip-card { border-left: 3px solid var(--brand-cyan); padding-left: 20px; }
+
+/* Section 3: Cards Spacing */
+.stability-sec { padding: 100px 0; background: #fcfaff; }
+.stability-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 60px; }
+.s-item { padding: 40px; background: #fff; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+.highlighted-cyan { background: var(--brand-cyan); color: var(--brand-purple); transform: scale(1.05); }
+
+/* Section 4: Brand Strip */
+.brand-strip { background: var(--brand-cyan); padding: 80px 10%; display: flex; align-items: center; justify-content: space-between; border-radius: 40px; margin: 0 20px; }
+.strip-text h2 { font-size: 3rem; color: var(--brand-purple); line-height: 1; }
+.strip-stats { display: flex; gap: 40px; }
+.stat-circle { width: 120px; height: 120px; border: 4px solid var(--brand-purple); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+
+/* Section 5: Biomechanics Breakdown */
+.bio-sec { padding: 100px 0; }
+.bio-layout { display: flex; gap: 80px; }
+.bio-list { list-style: none; margin-top: 30px; }
+.bio-list li { padding: 20px 0; border-bottom: 1px solid #eee; }
+.bio-card { background: var(--brand-purple); color: #fff; padding: 40px; border-radius: 20px; margin-top: 40px; }
+
+/* Section 6: Footer */
+.glute-footer { background: #0a0118; color: #fff; padding: 100px 0; text-align: center; }
+.footer-flex { display: flex; justify-content: center; gap: 60px; margin: 50px 0; }
+.f-item span { color: var(--brand-cyan); display: block; margin-bottom: 10px; }
+.elite-btn { background: var(--brand-cyan); border: none; padding: 20px 50px; border-radius: 15px; font-weight: 800; cursor: pointer; }
+
+/* Responsive */
+@media (max-width: 992px) {
+    .glute-header-grid, .vault-grid, .stability-grid, .bio-layout, .footer-flex { flex-direction: column; display: flex; gap: 40px; text-align: center; }
+    .glute-giant-text { font-size: 3.5rem; }
+    .brand-strip { flex-direction: column; gap: 40px; text-align: center; }
+    .glute-editorial {
+    padding: 30px 0 !important;
+    background-color: #ffffff;
+    position: relative;
+ width: 100%;
+}
+
+.editorial-container{
+    width: 100%;
+}
+}/* Container ko 50% width dena */
+.vault-grid {
+    display: flex;
+    gap: 60px; /* Spacing between image and text */
+    align-items: center;
+    width: 100%;
+}
+
+.vault-image {
+    flex: 1; /* Ye automatic 50% space le lega agar text bhi flex:1 hai */
+    max-width: 50%; /* Strictly half width */
+    object-fit: cover;
+}
+
+.vault-image img {
+    width: 100%;       /* Container ki puri width le */
+    height: 500px;     /* Professional fixed height */
+    object-fit: cover; /* Image stretch nahi hogi, crop hokar set ho jayegi */
+    border-radius: 30px;
+    box-shadow: 20px 20px 0px var(--brand-purple); /* Jo pehle design tha */
+    display: block;
+}
+
+/* Content (Text) side ko bhi 50% set karein */
+.vault-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* Mobile par wapis full width karne ke liye */
+@media (max-width: 768px) {
+    .vault-grid {
+        flex-direction: column;
+    }
+    .vault-image, .vault-content {
+        max-width: 100%;
+    }
+    .vault-image img {
+        height: 350px; /* Mobile par thodi kam height */
+    }
+    
+
+}
+
+.glute-editorial {
+    padding: 140px 0;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Watermark for Premium Look */
+.bg-watermark {
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translateY(-50%);
+    font-size: 15rem;
+    font-weight: 900;
+    color: rgba(60, 14, 120, 0.03); /* Extremely faint purple */
+    z-index: 0;
+    pointer-events: none;
+    letter-spacing: -10px;
+}
+
+.editorial-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.editorial-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 100px;
+    align-items: flex-start;
+}
+
+/* Left Side: Headline */
+.kicker-wrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.kicker-wrap .line {
+    width: 40px;
+    height: 2px;
+    background: var(--brand-cyan);
+}
+
+.kicker-text {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: var(--brand-purple);
+}
+
+.editorial-title {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 0.95;
+    color: var(--dark-text);
+    margin-bottom: 30px;
+}
+
+.cyan-brand {
+    color: var(--brand-cyan);
+    text-shadow: 2px 2px 0px var(--brand-purple);
+}
+
+.glute-tags-modern {
+    display: flex;
+    gap: 15px;
+}
+
+.glute-tags-modern span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+}
+
+/* Right Side: Body & Cards */
+.lead-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 50px;
+    border-left: 4px solid var(--brand-purple);
+    padding-left: 30px;
+}
+
+.anatomy-list-premium {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.anatomy-card {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    transition: 0.3s;
+}
+
+.anatomy-card:hover {
+    transform: translateX(10px);
+}
+
+.a-num {
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--brand-cyan);
+    padding-top: 5px;
+}
+
+.a-info h4 {
+    font-size: 1.3rem;
+    color: var(--brand-purple);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.a-info p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 992px) {
+    .editorial-grid { grid-template-columns: 1fr; gap: 60px; }
+    .editorial-title { font-size: 3rem; }
+    .bg-watermark { display: none; }
+}

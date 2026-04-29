@@ -1,0 +1,774 @@
+Apr 27 07:56:14 10.71.57.0 a3132052 Connection from 10.71.57.0 port 45848 on 82.165.90.105 port 22 rdomain ""
+Apr 27 07:56:15 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 45848 ssh2
+Apr 27 07:56:16 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 45848 id 0
+Apr 27 07:56:16 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 27 07:57:24 10.71.57.0 a3132052 Connection from 10.71.57.0 port 17284 on 82.165.90.105 port 22 rdomain ""
+Apr 27 07:57:25 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 17284 ssh2
+Apr 27 07:57:25 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 17284 id 0
+Apr 27 07:57:25 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 27 07:57:27 10.71.57.0 a3132052 open "/.htaccess" flags READ mode 0666
+Apr 27 07:57:28 10.71.57.0 a3132052 close "/.htaccess" bytes read 106 written 0
+Apr 27 07:57:28 10.71.57.0 a3132052 [10.71.57.0|get|1|106|0|0|0|2f2e6874616363657373|]
+Apr 27 07:58:28 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 17284
+Apr 27 07:58:28 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 27 08:00:50 10.71.57.0 a3132052 Connection from 10.71.57.0 port 18592 on 82.165.90.105 port 22 rdomain ""
+Apr 27 08:00:51 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 18592 ssh2
+Apr 27 08:00:51 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 18592 id 0
+Apr 27 08:00:51 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 27 08:00:53 10.71.57.0 a3132052 open "/Llms.txt.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:00:53 10.71.57.0 a3132052 close "/Llms.txt.txt" bytes read 0 written 1490
+Apr 27 08:00:53 10.71.57.0 a3132052 [10.71.57.0|put|0|1490|0|0|0|2f4c6c6d732e7478742e747874|]
+Apr 27 08:01:53 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 18592
+Apr 27 08:01:53 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 27 08:03:21 10.71.56.0 a3132052 Connection from 10.71.56.0 port 25332 on 82.165.90.105 port 22 rdomain ""
+Apr 27 08:03:22 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 25332 ssh2
+Apr 27 08:03:22 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 25332 id 0
+Apr 27 08:03:22 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 27 08:03:24 10.71.56.0 a3132052 open "/Robots.txt.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:03:24 10.71.56.0 a3132052 close "/Robots.txt.txt" bytes read 0 written 609
+Apr 27 08:03:24 10.71.56.0 a3132052 [10.71.56.0|put|0|609|0|0|0|2f526f626f74732e7478742e747874|]
+Apr 27 08:04:24 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 25332
+Apr 27 08:04:24 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 27 08:30:03 10.71.56.0 a3132052 Connection from 10.71.56.0 port 26414 on 82.165.90.105 port 22 rdomain ""
+Apr 27 08:30:04 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 26414 ssh2
+Apr 27 08:30:03 10.71.57.0 a3132052 Connection from 10.71.57.0 port 37956 on 82.165.90.105 port 22 rdomain ""
+Apr 27 08:30:04 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 37956 ssh2
+Apr 27 08:30:05 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 26414 id 0
+Apr 27 08:30:05 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 27 08:30:05 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 37956 id 0
+Apr 27 08:30:05 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 27 08:30:08 10.71.56.0 a3132052 open "/ab&core.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:09 10.71.56.0 a3132052 close "/ab&core.html" bytes read 0 written 14299
+Apr 27 08:30:09 10.71.56.0 a3132052 [10.71.56.0|put|1|14299|0|0|0|2f616226636f72652e68746d6c|]
+Apr 27 08:30:09 10.71.57.0 a3132052 open "/about.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:10 10.71.57.0 a3132052 close "/about.html" bytes read 0 written 15728
+Apr 27 08:30:10 10.71.57.0 a3132052 [10.71.57.0|put|1|15728|0|0|0|2f61626f75742e68746d6c|]
+Apr 27 08:30:10 10.71.56.0 a3132052 open "/Arm&Shoulder.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:11 10.71.56.0 a3132052 close "/Arm&Shoulder.html" bytes read 0 written 14600
+Apr 27 08:30:11 10.71.56.0 a3132052 [10.71.56.0|put|1|14600|0|0|0|2f41726d2653686f756c6465722e68746d6c|]
+Apr 27 08:30:11 10.71.57.0 a3132052 open "/back.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:12 10.71.57.0 a3132052 close "/back.html" bytes read 0 written 15333
+Apr 27 08:30:12 10.71.57.0 a3132052 [10.71.57.0|put|1|15333|0|0|0|2f6261636b2e68746d6c|]
+Apr 27 08:30:13 10.71.56.0 a3132052 open "/Bestgyminbury.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:13 10.71.56.0 a3132052 close "/Bestgyminbury.html" bytes read 0 written 15754
+Apr 27 08:30:13 10.71.56.0 a3132052 [10.71.56.0|put|0|15754|0|0|0|2f4265737467796d696e627572792e68746d6c|]
+Apr 27 08:30:14 10.71.57.0 a3132052 open "/cardio.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:14 10.71.57.0 a3132052 close "/cardio.html" bytes read 0 written 19821
+Apr 27 08:30:14 10.71.57.0 a3132052 [10.71.57.0|put|0|19821|0|0|0|2f63617264696f2e68746d6c|]
+Apr 27 08:30:15 10.71.56.0 a3132052 open "/chest.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:15 10.71.56.0 a3132052 close "/chest.html" bytes read 0 written 15977
+Apr 27 08:30:15 10.71.56.0 a3132052 [10.71.56.0|put|0|15977|0|0|0|2f63686573742e68746d6c|]
+Apr 27 08:30:16 10.71.57.0 a3132052 open "/contact.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:16 10.71.57.0 a3132052 close "/contact.html" bytes read 0 written 6201
+Apr 27 08:30:16 10.71.57.0 a3132052 [10.71.57.0|put|0|6201|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 27 08:30:17 10.71.56.0 a3132052 open "/fullbody.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:17 10.71.56.0 a3132052 close "/fullbody.html" bytes read 0 written 21499
+Apr 27 08:30:17 10.71.56.0 a3132052 [10.71.56.0|put|0|21499|0|0|0|2f66756c6c626f64792e68746d6c|]
+Apr 27 08:30:18 10.71.57.0 a3132052 open "/glute.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:18 10.71.57.0 a3132052 close "/glute.html" bytes read 0 written 14373
+Apr 27 08:30:18 10.71.57.0 a3132052 [10.71.57.0|put|0|14373|0|0|0|2f676c7574652e68746d6c|]
+Apr 27 08:30:19 10.71.56.0 a3132052 open "/Gyminbury.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:19 10.71.56.0 a3132052 close "/Gyminbury.html" bytes read 0 written 16674
+Apr 27 08:30:19 10.71.56.0 a3132052 [10.71.56.0|put|0|16674|0|0|0|2f47796d696e627572792e68746d6c|]
+Apr 27 08:30:20 10.71.57.0 a3132052 open "/helpAndSupport.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:21 10.71.57.0 a3132052 close "/helpAndSupport.html" bytes read 0 written 14200
+Apr 27 08:30:21 10.71.57.0 a3132052 [10.71.57.0|put|1|14200|0|0|0|2f68656c70416e64537570706f72742e68746d6c|]
+Apr 27 08:30:21 10.71.56.0 a3132052 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:22 10.71.56.0 a3132052 close "/index.html" bytes read 0 written 43973
+Apr 27 08:30:22 10.71.56.0 a3132052 [10.71.56.0|put|1|43973|0|0|0|2f696e6465782e68746d6c|]
+Apr 27 08:30:22 10.71.57.0 a3132052 open "/leg.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:23 10.71.57.0 a3132052 close "/leg.html" bytes read 0 written 13444
+Apr 27 08:30:23 10.71.57.0 a3132052 [10.71.57.0|put|1|13444|0|0|0|2f6c65672e68746d6c|]
+Apr 27 08:30:25 10.71.56.0 a3132052 open "/Llms.txt.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:25 10.71.56.0 a3132052 close "/Llms.txt.txt" bytes read 0 written 1490
+Apr 27 08:30:25 10.71.56.0 a3132052 [10.71.56.0|put|0|1490|0|0|0|2f4c6c6d732e7478742e747874|]
+Apr 27 08:30:26 10.71.57.0 a3132052 open "/Membershipsinformation.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:27 10.71.57.0 a3132052 close "/Membershipsinformation.html" bytes read 0 written 9803
+Apr 27 08:30:27 10.71.57.0 a3132052 [10.71.57.0|put|1|9803|0|0|0|2f4d656d6265727368697073696e666f726d6174696f6e2e68746d6c|]
+Apr 27 08:30:27 10.71.56.0 a3132052 open "/openinghourse.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:28 10.71.56.0 a3132052 close "/openinghourse.html" bytes read 0 written 10744
+Apr 27 08:30:28 10.71.56.0 a3132052 [10.71.56.0|put|1|10744|0|0|0|2f6f70656e696e67686f757273652e68746d6c|]
+Apr 27 08:30:29 10.71.57.0 a3132052 open "/personaltrainingpage.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:29 10.71.57.0 a3132052 close "/personaltrainingpage.html" bytes read 0 written 16221
+Apr 27 08:30:29 10.71.57.0 a3132052 [10.71.57.0|put|0|16221|0|0|0|2f706572736f6e616c747261696e696e67706167652e68746d6c|]
+Apr 27 08:30:30 10.71.56.0 a3132052 open "/Robots.txt.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:30:30 10.71.56.0 a3132052 close "/Robots.txt.txt" bytes read 0 written 609
+Apr 27 08:30:30 10.71.56.0 a3132052 [10.71.56.0|put|0|609|0|0|0|2f526f626f74732e7478742e747874|]
+Apr 27 08:31:02 10.71.56.0 a3132052 open "/images/favicon.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:31:03 10.71.56.0 a3132052 close "/images/favicon.png" bytes read 0 written 110946
+Apr 27 08:31:03 10.71.56.0 a3132052 [10.71.56.0|put|1|110946|0|0|0|2f696d616765732f66617669636f6e2e706e67|]
+Apr 27 08:31:20 10.71.56.0 a3132052 open "/css/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:31:21 10.71.56.0 a3132052 close "/css/style.css" bytes read 0 written 12930
+Apr 27 08:31:21 10.71.56.0 a3132052 [10.71.56.0|put|1|12930|0|0|0|2f6373732f7374796c652e637373|]
+Apr 27 08:31:28 10.71.56.0 a3132052 open "/css/home.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 08:31:29 10.71.56.0 a3132052 close "/css/home.css" bytes read 0 written 51386
+Apr 27 08:31:29 10.71.56.0 a3132052 [10.71.56.0|put|1|51386|0|0|0|2f6373732f686f6d652e637373|]
+Apr 27 08:31:30 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 37956
+Apr 27 08:31:30 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 27 08:32:29 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 26414
+Apr 27 08:32:29 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 27 08:33:14 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 45848
+Apr 27 08:33:14 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 27 19:19:33 10.71.56.0 a3132052 Connection from 10.71.56.0 port 22678 on 82.165.90.105 port 22 rdomain ""
+Apr 27 19:19:37 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 22678 ssh2
+Apr 27 19:19:38 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 22678 id 0
+Apr 27 19:19:38 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 27 19:20:13 10.71.56.0 a3132052 Connection from 10.71.56.0 port 59196 on 82.165.90.105 port 22 rdomain ""
+Apr 27 19:20:14 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 59196 ssh2
+Apr 27 19:20:15 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 59196 id 0
+Apr 27 19:20:15 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 27 19:20:21 10.71.56.0 a3132052 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 19:20:22 10.71.56.0 a3132052 close "/index.html" bytes read 0 written 45353
+Apr 27 19:20:22 10.71.56.0 a3132052 [10.71.56.0|put|1|45353|0|0|0|2f696e6465782e68746d6c|]
+Apr 27 19:20:28 10.71.56.0 a3132052 open "/helpAndSupport.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 19:20:29 10.71.56.0 a3132052 close "/helpAndSupport.html" bytes read 0 written 16635
+Apr 27 19:20:29 10.71.56.0 a3132052 [10.71.56.0|put|1|16635|0|0|0|2f68656c70416e64537570706f72742e68746d6c|]
+Apr 27 19:20:56 10.71.56.0 a3132052 open "/css/home.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 19:20:57 10.71.56.0 a3132052 close "/css/home.css" bytes read 0 written 53494
+Apr 27 19:20:57 10.71.56.0 a3132052 [10.71.56.0|put|1|53494|0|0|0|2f6373732f686f6d652e637373|]
+Apr 27 19:21:42 10.71.56.0 a3132052 open "/js/script.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 27 19:21:43 10.71.56.0 a3132052 close "/js/script.js" bytes read 0 written 7370
+Apr 27 19:21:43 10.71.56.0 a3132052 [10.71.56.0|put|1|7370|0|0|0|2f6a732f7363726970742e6a73|]
+Apr 27 19:22:43 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 59196
+Apr 27 19:22:43 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 27 20:12:46 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 27 20:12:46 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 22678
+Apr 28 07:18:17 10.71.56.0 a3132052 Connection from 10.71.56.0 port 39182 on 82.165.90.105 port 22 rdomain ""
+Apr 28 07:18:18 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 39182 ssh2
+Apr 28 07:18:19 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 39182 id 0
+Apr 28 07:18:19 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 28 07:18:36 10.71.57.0 a3132052 Connection from 10.71.57.0 port 33502 on 82.165.90.105 port 22 rdomain ""
+Apr 28 07:18:37 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 33502 ssh2
+Apr 28 07:18:38 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 33502 id 0
+Apr 28 07:18:38 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 28 07:18:40 10.71.57.0 a3132052 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 07:18:41 10.71.57.0 a3132052 close "/index.html" bytes read 0 written 45492
+Apr 28 07:18:41 10.71.57.0 a3132052 [10.71.57.0|put|1|45492|0|0|0|2f696e6465782e68746d6c|]
+Apr 28 07:18:43 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 33502
+Apr 28 07:18:43 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 28 07:18:43 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 39182
+Apr 28 07:18:43 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 28 08:00:13 10.71.57.0 a3132052 Connection from 10.71.57.0 port 51624 on 82.165.90.105 port 22 rdomain ""
+Apr 28 08:00:14 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 51624 ssh2
+Apr 28 08:00:15 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 51624 id 0
+Apr 28 08:00:15 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 28 08:23:19 10.71.57.0 a3132052 Connection from 10.71.57.0 port 16944 on 82.165.90.105 port 22 rdomain ""
+Apr 28 08:23:20 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 16944 ssh2
+Apr 28 08:23:21 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 16944 id 0
+Apr 28 08:23:21 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 28 08:23:24 10.71.57.0 a3132052 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 08:23:25 10.71.57.0 a3132052 close "/index.html" bytes read 0 written 51043
+Apr 28 08:23:25 10.71.57.0 a3132052 [10.71.57.0|put|1|51043|0|0|0|2f696e6465782e68746d6c|]
+Apr 28 08:23:37 10.71.57.0 a3132052 open "/js/script.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 08:23:38 10.71.57.0 a3132052 close "/js/script.js" bytes read 0 written 5921
+Apr 28 08:23:38 10.71.57.0 a3132052 [10.71.57.0|put|1|5921|0|0|0|2f6a732f7363726970742e6a73|]
+Apr 28 08:23:56 10.71.57.0 a3132052 Connection from 10.71.57.0 port 18420 on 82.165.90.105 port 22 rdomain ""
+Apr 28 08:23:57 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 18420 ssh2
+Apr 28 08:23:57 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 18420 id 0
+Apr 28 08:23:57 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 28 08:23:57 10.71.57.0 a3132052 open "/images/post1.PNG" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 08:23:59 10.71.57.0 a3132052 close "/images/post1.PNG" bytes read 0 written 466238
+Apr 28 08:23:59 10.71.57.0 a3132052 [10.71.57.0|put|2|466238|0|0|0|2f696d616765732f706f7374312e504e47|]
+Apr 28 08:24:00 10.71.57.0 a3132052 open "/images/post2.PNG" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 08:24:01 10.71.57.0 a3132052 close "/images/post2.PNG" bytes read 0 written 138426
+Apr 28 08:24:01 10.71.57.0 a3132052 [10.71.57.0|put|1|138426|0|0|0|2f696d616765732f706f7374322e504e47|]
+Apr 28 08:24:11 10.71.57.0 a3132052 open "/css/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 08:24:11 10.71.57.0 a3132052 close "/css/style.css" bytes read 0 written 12932
+Apr 28 08:24:11 10.71.57.0 a3132052 [10.71.57.0|put|0|12932|0|0|0|2f6373732f7374796c652e637373|]
+Apr 28 08:24:21 10.71.57.0 a3132052 open "/css/home.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 08:24:21 10.71.57.0 a3132052 close "/css/home.css" bytes read 0 written 56539
+Apr 28 08:24:21 10.71.57.0 a3132052 [10.71.57.0|put|0|56539|0|0|0|2f6373732f686f6d652e637373|]
+Apr 28 08:25:01 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 18420
+Apr 28 08:25:01 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 28 08:25:07 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 16944
+Apr 28 08:25:07 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 28 08:25:07 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 51624
+Apr 28 08:25:07 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 28 09:31:07 10.71.57.0 a3132052 Connection from 10.71.57.0 port 19558 on 82.165.90.105 port 22 rdomain ""
+Apr 28 09:31:08 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 19558 ssh2
+Apr 28 09:31:08 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 19558 id 0
+Apr 28 09:31:08 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 28 09:31:17 10.71.57.0 a3132052 Connection from 10.71.57.0 port 26862 on 82.165.90.105 port 22 rdomain ""
+Apr 28 09:31:18 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 26862 ssh2
+Apr 28 09:31:19 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 26862 id 0
+Apr 28 09:31:19 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 28 09:31:22 10.71.57.0 a3132052 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 09:31:23 10.71.57.0 a3132052 close "/index.html" bytes read 0 written 49127
+Apr 28 09:31:23 10.71.57.0 a3132052 [10.71.57.0|put|1|49127|0|0|0|2f696e6465782e68746d6c|]
+Apr 28 09:32:24 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 26862
+Apr 28 09:32:24 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 28 09:34:05 10.71.57.0 a3132052 Connection from 10.71.57.0 port 31342 on 82.165.90.105 port 22 rdomain ""
+Apr 28 09:34:07 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 31342 ssh2
+Apr 28 09:34:07 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 31342 id 0
+Apr 28 09:34:07 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 28 09:34:11 10.71.57.0 a3132052 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 09:34:12 10.71.57.0 a3132052 close "/index.html" bytes read 0 written 49202
+Apr 28 09:34:12 10.71.57.0 a3132052 [10.71.57.0|put|1|49202|0|0|0|2f696e6465782e68746d6c|]
+Apr 28 09:39:20 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 31342
+Apr 28 09:39:20 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 28 09:39:24 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 19558
+Apr 28 09:39:24 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 28 19:31:40 10.71.56.0 a3132052 Connection from 10.71.56.0 port 44374 on 82.165.90.105 port 22 rdomain ""
+Apr 28 19:31:44 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 44374 ssh2
+Apr 28 19:31:46 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 44374 id 0
+Apr 28 19:31:46 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 28 19:32:33 10.71.56.0 a3132052 Connection from 10.71.56.0 port 25166 on 82.165.90.105 port 22 rdomain ""
+Apr 28 19:32:36 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 25166 ssh2
+Apr 28 19:32:37 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 25166 id 0
+Apr 28 19:32:37 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 28 19:32:40 10.71.56.0 a3132052 open "/404.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:32:42 10.71.56.0 a3132052 close "/404.html" bytes read 0 written 4125
+Apr 28 19:32:42 10.71.56.0 a3132052 [10.71.56.0|put|2|4125|0|0|0|2f3430342e68746d6c|]
+Apr 28 19:32:50 10.71.56.0 a3132052 open "/sitemap.xml" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:32:51 10.71.56.0 a3132052 close "/sitemap.xml" bytes read 0 written 3105
+Apr 28 19:32:51 10.71.56.0 a3132052 [10.71.56.0|put|1|3105|0|0|0|2f736974656d61702e786d6c|]
+Apr 28 19:33:51 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 25166
+Apr 28 19:33:51 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 28 19:34:32 10.71.56.0 a3132052 Connection from 10.71.56.0 port 43690 on 82.165.90.105 port 22 rdomain ""
+Apr 28 19:34:33 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 43690 ssh2
+Apr 28 19:34:34 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 43690 id 0
+Apr 28 19:34:34 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 28 19:34:38 10.71.56.0 a3132052 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:34:40 10.71.56.0 a3132052 close "/index.html" bytes read 0 written 53026
+Apr 28 19:34:40 10.71.56.0 a3132052 [10.71.56.0|put|2|53026|0|0|0|2f696e6465782e68746d6c|]
+Apr 28 19:35:40 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 43690
+Apr 28 19:35:40 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 28 19:45:25 10.71.56.0 a3132052 Connection from 10.71.56.0 port 50074 on 82.165.90.105 port 22 rdomain ""
+Apr 28 19:45:27 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 50074 ssh2
+Apr 28 19:45:25 10.71.56.0 a3132052 Connection from 10.71.56.0 port 52892 on 82.165.90.105 port 22 rdomain ""
+Apr 28 19:45:28 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 52892 ssh2
+Apr 28 19:45:28 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 50074 id 0
+Apr 28 19:45:28 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 28 19:45:28 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 52892 id 0
+Apr 28 19:45:28 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 28 19:45:35 10.71.56.0 a3132052 open "/about.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:35 10.71.56.0 a3132052 open "/ab&core.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:36 10.71.56.0 a3132052 close "/ab&core.html" bytes read 0 written 13995
+Apr 28 19:45:36 10.71.56.0 a3132052 [10.71.56.0|put|1|13995|0|0|0|2f616226636f72652e68746d6c|]
+Apr 28 19:45:36 10.71.56.0 a3132052 close "/about.html" bytes read 0 written 15472
+Apr 28 19:45:36 10.71.56.0 a3132052 [10.71.56.0|put|1|15472|0|0|0|2f61626f75742e68746d6c|]
+Apr 28 19:45:36 10.71.56.0 a3132052 open "/Arm&Shoulder.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:37 10.71.56.0 a3132052 open "/back.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:37 10.71.56.0 a3132052 close "/back.html" bytes read 0 written 15132
+Apr 28 19:45:37 10.71.56.0 a3132052 [10.71.56.0|put|0|15132|0|0|0|2f6261636b2e68746d6c|]
+Apr 28 19:45:37 10.71.56.0 a3132052 close "/Arm&Shoulder.html" bytes read 0 written 14313
+Apr 28 19:45:37 10.71.56.0 a3132052 [10.71.56.0|put|1|14313|0|0|0|2f41726d2653686f756c6465722e68746d6c|]
+Apr 28 19:45:38 10.71.56.0 a3132052 open "/Bestgyminbury.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:38 10.71.56.0 a3132052 open "/cardio.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:39 10.71.56.0 a3132052 close "/Bestgyminbury.html" bytes read 0 written 15516
+Apr 28 19:45:39 10.71.56.0 a3132052 [10.71.56.0|put|1|15516|0|0|0|2f4265737467796d696e627572792e68746d6c|]
+Apr 28 19:45:39 10.71.56.0 a3132052 close "/cardio.html" bytes read 0 written 19529
+Apr 28 19:45:39 10.71.56.0 a3132052 [10.71.56.0|put|1|19529|0|0|0|2f63617264696f2e68746d6c|]
+Apr 28 19:45:40 10.71.56.0 a3132052 open "/chest.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:40 10.71.56.0 a3132052 open "/contact.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:40 10.71.56.0 a3132052 close "/chest.html" bytes read 0 written 15759
+Apr 28 19:45:40 10.71.56.0 a3132052 [10.71.56.0|put|0|15759|0|0|0|2f63686573742e68746d6c|]
+Apr 28 19:45:40 10.71.56.0 a3132052 close "/contact.html" bytes read 0 written 6067
+Apr 28 19:45:40 10.71.56.0 a3132052 [10.71.56.0|put|0|6067|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 28 19:45:41 10.71.56.0 a3132052 open "/fullbody.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:41 10.71.56.0 a3132052 open "/glute.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:42 10.71.56.0 a3132052 close "/fullbody.html" bytes read 0 written 21172
+Apr 28 19:45:42 10.71.56.0 a3132052 [10.71.56.0|put|1|21172|0|0|0|2f66756c6c626f64792e68746d6c|]
+Apr 28 19:45:42 10.71.56.0 a3132052 close "/glute.html" bytes read 0 written 14057
+Apr 28 19:45:42 10.71.56.0 a3132052 [10.71.56.0|put|1|14057|0|0|0|2f676c7574652e68746d6c|]
+Apr 28 19:45:42 10.71.56.0 a3132052 open "/Gyminbury.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:43 10.71.56.0 a3132052 open "/helpAndSupport.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:43 10.71.56.0 a3132052 close "/Gyminbury.html" bytes read 0 written 16421
+Apr 28 19:45:43 10.71.56.0 a3132052 [10.71.56.0|put|1|16421|0|0|0|2f47796d696e627572792e68746d6c|]
+Apr 28 19:45:43 10.71.56.0 a3132052 close "/helpAndSupport.html" bytes read 0 written 16273
+Apr 28 19:45:43 10.71.56.0 a3132052 [10.71.56.0|put|0|16273|0|0|0|2f68656c70416e64537570706f72742e68746d6c|]
+Apr 28 19:45:44 10.71.56.0 a3132052 open "/leg.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:44 10.71.56.0 a3132052 open "/Membershipsinformation.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:45 10.71.56.0 a3132052 close "/leg.html" bytes read 0 written 13174
+Apr 28 19:45:45 10.71.56.0 a3132052 [10.71.56.0|put|1|13174|0|0|0|2f6c65672e68746d6c|]
+Apr 28 19:45:45 10.71.56.0 a3132052 close "/Membershipsinformation.html" bytes read 0 written 9684
+Apr 28 19:45:45 10.71.56.0 a3132052 [10.71.56.0|put|1|9684|0|0|0|2f4d656d6265727368697073696e666f726d6174696f6e2e68746d6c|]
+Apr 28 19:45:45 10.71.56.0 a3132052 open "/openinghourse.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:45 10.71.56.0 a3132052 open "/personaltrainingpage.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:45:46 10.71.56.0 a3132052 close "/openinghourse.html" bytes read 0 written 10589
+Apr 28 19:45:46 10.71.56.0 a3132052 [10.71.56.0|put|1|10589|0|0|0|2f6f70656e696e67686f757273652e68746d6c|]
+Apr 28 19:45:46 10.71.56.0 a3132052 close "/personaltrainingpage.html" bytes read 0 written 15990
+Apr 28 19:45:46 10.71.56.0 a3132052 [10.71.56.0|put|1|15990|0|0|0|2f706572736f6e616c747261696e696e67706167652e68746d6c|]
+Apr 28 19:46:46 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 52892
+Apr 28 19:46:46 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 28 19:46:47 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 50074
+Apr 28 19:46:47 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 28 19:48:30 10.71.56.0 a3132052 Connection from 10.71.56.0 port 53840 on 82.165.90.105 port 22 rdomain ""
+Apr 28 19:48:32 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 53840 ssh2
+Apr 28 19:48:33 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 53840 id 0
+Apr 28 19:48:33 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 28 19:48:36 10.71.56.0 a3132052 open "/robots.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:48:37 10.71.56.0 a3132052 close "/robots.txt" bytes read 0 written 609
+Apr 28 19:48:37 10.71.56.0 a3132052 [10.71.56.0|put|1|609|0|0|0|2f726f626f74732e747874|]
+Apr 28 19:49:37 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 28 19:49:37 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 53840
+Apr 28 19:51:54 10.71.56.0 a3132052 Connection from 10.71.56.0 port 43392 on 82.165.90.105 port 22 rdomain ""
+Apr 28 19:51:56 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 43392 ssh2
+Apr 28 19:51:56 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 43392 id 0
+Apr 28 19:51:56 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 28 19:51:57 10.71.56.0 a3132052 Connection from 10.71.56.0 port 39920 on 82.165.90.105 port 22 rdomain ""
+Apr 28 19:51:59 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 39920 ssh2
+Apr 28 19:51:59 10.71.56.0 a3132052 open "/Robots.txt.txt" flags READ mode 0666
+Apr 28 19:51:59 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 39920 id 0
+Apr 28 19:51:59 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 28 19:52:00 10.71.56.0 a3132052 close "/Robots.txt.txt" bytes read 609 written 0
+Apr 28 19:52:00 10.71.56.0 a3132052 [10.71.56.0|get|1|609|0|0|0|2f526f626f74732e7478742e747874|]
+Apr 28 19:52:01 10.71.56.0 a3132052 open "/robots.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 28 19:52:02 10.71.56.0 a3132052 close "/robots.txt" bytes read 0 written 609
+Apr 28 19:52:02 10.71.56.0 a3132052 [10.71.56.0|put|1|609|0|0|0|2f726f626f74732e747874|]
+Apr 28 19:57:05 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 44374
+Apr 28 19:57:05 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 28 19:57:09 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 39920
+Apr 28 19:57:09 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 28 19:57:12 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 43392
+Apr 28 19:57:12 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 29 08:12:23 10.71.57.0 a3132052 Connection from 10.71.57.0 port 61524 on 82.165.90.105 port 22 rdomain ""
+Apr 29 08:12:25 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 61524 ssh2
+Apr 29 08:12:25 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 61524 id 0
+Apr 29 08:12:25 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 29 08:14:12 10.71.56.0 a3132052 Connection from 10.71.56.0 port 15862 on 82.165.90.105 port 22 rdomain ""
+Apr 29 08:14:13 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 15862 ssh2
+Apr 29 08:14:12 10.71.57.0 a3132052 Connection from 10.71.57.0 port 63154 on 82.165.90.105 port 22 rdomain ""
+Apr 29 08:14:13 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 63154 ssh2
+Apr 29 08:14:13 10.71.57.0 a3132052 sent status No such file
+Apr 29 08:14:13 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 15862 id 0
+Apr 29 08:14:13 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 63154 id 0
+Apr 29 08:14:13 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 29 08:14:13 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 29 08:14:15 10.71.56.0 a3132052 open "/sitemap.xml" flags READ mode 0666
+Apr 29 08:14:15 10.71.57.0 a3132052 open "/robots.txt" flags READ mode 0666
+Apr 29 08:14:16 10.71.56.0 a3132052 close "/sitemap.xml" bytes read 3105 written 0
+Apr 29 08:14:16 10.71.56.0 a3132052 [10.71.56.0|get|1|3105|0|0|0|2f736974656d61702e786d6c|]
+Apr 29 08:14:16 10.71.57.0 a3132052 close "/robots.txt" bytes read 609 written 0
+Apr 29 08:14:16 10.71.57.0 a3132052 [10.71.57.0|get|1|609|0|0|0|2f726f626f74732e747874|]
+Apr 29 08:14:17 10.71.57.0 a3132052 open "/404.html" flags READ mode 0666
+Apr 29 08:14:17 10.71.56.0 a3132052 open "/Robots.txt.txt" flags READ mode 0666
+Apr 29 08:14:18 10.71.57.0 a3132052 close "/404.html" bytes read 4125 written 0
+Apr 29 08:14:18 10.71.57.0 a3132052 [10.71.57.0|get|1|4125|0|0|0|2f3430342e68746d6c|]
+Apr 29 08:14:18 10.71.56.0 a3132052 close "/Robots.txt.txt" bytes read 609 written 0
+Apr 29 08:14:18 10.71.56.0 a3132052 [10.71.56.0|get|1|609|0|0|0|2f526f626f74732e7478742e747874|]
+Apr 29 08:14:18 10.71.57.0 a3132052 open "/Llms.txt.txt" flags READ mode 0666
+Apr 29 08:14:19 10.71.56.0 a3132052 open "/Membershipsinformation.html" flags READ mode 0666
+Apr 29 08:14:19 10.71.57.0 a3132052 close "/Llms.txt.txt" bytes read 1490 written 0
+Apr 29 08:14:19 10.71.57.0 a3132052 [10.71.57.0|get|1|1490|0|0|0|2f4c6c6d732e7478742e747874|]
+Apr 29 08:14:19 10.71.56.0 a3132052 close "/Membershipsinformation.html" bytes read 9684 written 0
+Apr 29 08:14:19 10.71.56.0 a3132052 [10.71.56.0|get|0|9684|0|0|0|2f4d656d6265727368697073696e666f726d6174696f6e2e68746d6c|]
+Apr 29 08:14:20 10.71.57.0 a3132052 open "/Gyminbury.html" flags READ mode 0666
+Apr 29 08:14:20 10.71.56.0 a3132052 open "/Bestgyminbury.html" flags READ mode 0666
+Apr 29 08:14:21 10.71.57.0 a3132052 close "/Gyminbury.html" bytes read 16421 written 0
+Apr 29 08:14:21 10.71.57.0 a3132052 [10.71.57.0|get|1|16421|0|0|0|2f47796d696e627572792e68746d6c|]
+Apr 29 08:14:21 10.71.56.0 a3132052 close "/Bestgyminbury.html" bytes read 15516 written 0
+Apr 29 08:14:21 10.71.56.0 a3132052 [10.71.56.0|get|1|15516|0|0|0|2f4265737467796d696e627572792e68746d6c|]
+Apr 29 08:14:21 10.71.57.0 a3132052 open "/helpAndSupport.html" flags READ mode 0666
+Apr 29 08:14:22 10.71.56.0 a3132052 open "/openinghourse.html" flags READ mode 0666
+Apr 29 08:14:22 10.71.57.0 a3132052 close "/helpAndSupport.html" bytes read 16273 written 0
+Apr 29 08:14:22 10.71.57.0 a3132052 [10.71.57.0|get|1|16273|0|0|0|2f68656c70416e64537570706f72742e68746d6c|]
+Apr 29 08:14:22 10.71.56.0 a3132052 close "/openinghourse.html" bytes read 10589 written 0
+Apr 29 08:14:22 10.71.56.0 a3132052 [10.71.56.0|get|0|10589|0|0|0|2f6f70656e696e67686f757273652e68746d6c|]
+Apr 29 08:14:23 10.71.57.0 a3132052 open "/personaltrainingpage.html" flags READ mode 0666
+Apr 29 08:14:23 10.71.56.0 a3132052 open "/ab&core.html" flags READ mode 0666
+Apr 29 08:14:24 10.71.57.0 a3132052 close "/personaltrainingpage.html" bytes read 15990 written 0
+Apr 29 08:14:24 10.71.57.0 a3132052 [10.71.57.0|get|1|15990|0|0|0|2f706572736f6e616c747261696e696e67706167652e68746d6c|]
+Apr 29 08:14:24 10.71.56.0 a3132052 close "/ab&core.html" bytes read 13995 written 0
+Apr 29 08:14:24 10.71.56.0 a3132052 [10.71.56.0|get|1|13995|0|0|0|2f616226636f72652e68746d6c|]
+Apr 29 08:14:24 10.71.57.0 a3132052 open "/leg.html" flags READ mode 0666
+Apr 29 08:14:24 10.71.56.0 a3132052 open "/index.html" flags READ mode 0666
+Apr 29 08:14:25 10.71.57.0 a3132052 close "/leg.html" bytes read 13174 written 0
+Apr 29 08:14:25 10.71.57.0 a3132052 [10.71.57.0|get|1|13174|0|0|0|2f6c65672e68746d6c|]
+Apr 29 08:14:25 10.71.56.0 a3132052 close "/index.html" bytes read 53026 written 0
+Apr 29 08:14:25 10.71.56.0 a3132052 [10.71.56.0|get|1|53026|0|0|0|2f696e6465782e68746d6c|]
+Apr 29 08:14:26 10.71.57.0 a3132052 open "/glute.html" flags READ mode 0666
+Apr 29 08:14:26 10.71.56.0 a3132052 open "/fullbody.html" flags READ mode 0666
+Apr 29 08:14:27 10.71.57.0 a3132052 close "/glute.html" bytes read 14057 written 0
+Apr 29 08:14:27 10.71.57.0 a3132052 [10.71.57.0|get|1|14057|0|0|0|2f676c7574652e68746d6c|]
+Apr 29 08:14:27 10.71.56.0 a3132052 close "/fullbody.html" bytes read 21172 written 0
+Apr 29 08:14:27 10.71.56.0 a3132052 [10.71.56.0|get|1|21172|0|0|0|2f66756c6c626f64792e68746d6c|]
+Apr 29 08:14:27 10.71.57.0 a3132052 open "/contact.html" flags READ mode 0666
+Apr 29 08:14:28 10.71.56.0 a3132052 open "/chest.html" flags READ mode 0666
+Apr 29 08:14:28 10.71.57.0 a3132052 close "/contact.html" bytes read 6067 written 0
+Apr 29 08:14:28 10.71.57.0 a3132052 [10.71.57.0|get|1|6067|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 29 08:14:28 10.71.56.0 a3132052 close "/chest.html" bytes read 15759 written 0
+Apr 29 08:14:28 10.71.56.0 a3132052 [10.71.56.0|get|0|15759|0|0|0|2f63686573742e68746d6c|]
+Apr 29 08:14:29 10.71.57.0 a3132052 open "/cardio.html" flags READ mode 0666
+Apr 29 08:14:29 10.71.56.0 a3132052 open "/back.html" flags READ mode 0666
+Apr 29 08:14:30 10.71.57.0 a3132052 close "/cardio.html" bytes read 19529 written 0
+Apr 29 08:14:30 10.71.57.0 a3132052 [10.71.57.0|get|1|19529|0|0|0|2f63617264696f2e68746d6c|]
+Apr 29 08:14:30 10.71.56.0 a3132052 close "/back.html" bytes read 15132 written 0
+Apr 29 08:14:30 10.71.56.0 a3132052 [10.71.56.0|get|1|15132|0|0|0|2f6261636b2e68746d6c|]
+Apr 29 08:14:30 10.71.57.0 a3132052 open "/about.html" flags READ mode 0666
+Apr 29 08:14:31 10.71.56.0 a3132052 open "/Arm&Shoulder.html" flags READ mode 0666
+Apr 29 08:14:31 10.71.57.0 a3132052 close "/about.html" bytes read 15472 written 0
+Apr 29 08:14:31 10.71.57.0 a3132052 [10.71.57.0|get|1|15472|0|0|0|2f61626f75742e68746d6c|]
+Apr 29 08:14:31 10.71.56.0 a3132052 close "/Arm&Shoulder.html" bytes read 14313 written 0
+Apr 29 08:14:31 10.71.56.0 a3132052 [10.71.56.0|get|0|14313|0|0|0|2f41726d2653686f756c6465722e68746d6c|]
+Apr 29 08:14:32 10.71.57.0 a3132052 open "/.htaccess" flags READ mode 0666
+Apr 29 08:14:33 10.71.57.0 a3132052 close "/.htaccess" bytes read 106 written 0
+Apr 29 08:14:33 10.71.57.0 a3132052 [10.71.57.0|get|1|106|0|0|0|2f2e6874616363657373|]
+Apr 29 08:14:33 10.71.56.0 a3132052 open "/logs/access.log.11.gz" flags READ mode 0666
+Apr 29 08:14:33 10.71.56.0 a3132052 close "/logs/access.log.11.gz" bytes read 90424 written 0
+Apr 29 08:14:33 10.71.56.0 a3132052 [10.71.56.0|get|0|90424|0|0|0|2f6c6f67732f6163636573732e6c6f672e31312e677a|]
+Apr 29 08:14:34 10.71.57.0 a3132052 open "/logs/access.log.18.1.gz" flags READ mode 0666
+Apr 29 08:14:34 10.71.56.0 a3132052 open "/logs/sftp.log" flags READ mode 0666
+Apr 29 08:14:35 10.71.57.0 a3132052 close "/logs/access.log.18.1.gz" bytes read 23345 written 0
+Apr 29 08:14:35 10.71.57.0 a3132052 [10.71.57.0|get|1|23345|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e312e677a|]
+Apr 29 08:14:35 10.71.56.0 a3132052 close "/logs/sftp.log" bytes read 38741 written 0
+Apr 29 08:14:35 10.71.56.0 a3132052 [10.71.56.0|get|1|38741|0|0|0|2f6c6f67732f736674702e6c6f67|]
+Apr 29 08:14:35 10.71.57.0 a3132052 open "/logs/access.log.12.gz" flags READ mode 0666
+Apr 29 08:14:36 10.71.56.0 a3132052 open "/logs/access.log.14.gz" flags READ mode 0666
+Apr 29 08:14:36 10.71.56.0 a3132052 close "/logs/access.log.14.gz" bytes read 63713 written 0
+Apr 29 08:14:36 10.71.56.0 a3132052 [10.71.56.0|get|0|63713|0|0|0|2f6c6f67732f6163636573732e6c6f672e31342e677a|]
+Apr 29 08:14:36 10.71.57.0 a3132052 close "/logs/access.log.12.gz" bytes read 98747 written 0
+Apr 29 08:14:36 10.71.57.0 a3132052 [10.71.57.0|get|1|98747|0|0|0|2f6c6f67732f6163636573732e6c6f672e31322e677a|]
+Apr 29 08:14:37 10.71.56.0 a3132052 open "/logs/access.log.17.5.gz" flags READ mode 0666
+Apr 29 08:14:37 10.71.57.0 a3132052 open "/logs/access.log.17.1.gz" flags READ mode 0666
+Apr 29 08:14:38 10.71.56.0 a3132052 close "/logs/access.log.17.5.gz" bytes read 14501 written 0
+Apr 29 08:14:38 10.71.56.0 a3132052 [10.71.56.0|get|1|14501|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e352e677a|]
+Apr 29 08:14:38 10.71.57.0 a3132052 close "/logs/access.log.17.1.gz" bytes read 13176 written 0
+Apr 29 08:14:38 10.71.57.0 a3132052 [10.71.57.0|get|1|13176|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e312e677a|]
+Apr 29 08:14:39 10.71.56.0 a3132052 open "/logs/sftp.log.16.gz" flags READ mode 0666
+Apr 29 08:14:39 10.71.57.0 a3132052 open "/logs/access.log.16.gz" flags READ mode 0666
+Apr 29 08:14:39 10.71.56.0 a3132052 close "/logs/sftp.log.16.gz" bytes read 252 written 0
+Apr 29 08:14:39 10.71.56.0 a3132052 [10.71.56.0|get|0|252|0|0|0|2f6c6f67732f736674702e6c6f672e31362e677a|]
+Apr 29 08:14:39 10.71.57.0 a3132052 close "/logs/access.log.16.gz" bytes read 116637 written 0
+Apr 29 08:14:39 10.71.57.0 a3132052 [10.71.57.0|get|0|116637|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e677a|]
+Apr 29 08:14:40 10.71.56.0 a3132052 open "/logs/sftp.log.17.gz" flags READ mode 0666
+Apr 29 08:14:40 10.71.57.0 a3132052 open "/logs/access.log.17.7.gz" flags READ mode 0666
+Apr 29 08:14:41 10.71.56.0 a3132052 close "/logs/sftp.log.17.gz" bytes read 10655 written 0
+Apr 29 08:14:41 10.71.56.0 a3132052 [10.71.56.0|get|1|10655|0|0|0|2f6c6f67732f736674702e6c6f672e31372e677a|]
+Apr 29 08:14:41 10.71.57.0 a3132052 close "/logs/access.log.17.7.gz" bytes read 15805 written 0
+Apr 29 08:14:41 10.71.57.0 a3132052 [10.71.57.0|get|1|15805|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e372e677a|]
+Apr 29 08:14:41 10.71.56.0 a3132052 open "/logs/access.log.15.gz" flags READ mode 0666
+Apr 29 08:14:42 10.71.57.0 a3132052 open "/logs/access.log.13.gz" flags READ mode 0666
+Apr 29 08:14:42 10.71.56.0 a3132052 close "/logs/access.log.15.gz" bytes read 125128 written 0
+Apr 29 08:14:42 10.71.56.0 a3132052 [10.71.56.0|get|1|125128|0|0|0|2f6c6f67732f6163636573732e6c6f672e31352e677a|]
+Apr 29 08:14:42 10.71.57.0 a3132052 close "/logs/access.log.13.gz" bytes read 84147 written 0
+Apr 29 08:14:42 10.71.57.0 a3132052 [10.71.57.0|get|0|84147|0|0|0|2f6c6f67732f6163636573732e6c6f672e31332e677a|]
+Apr 29 08:14:43 10.71.56.0 a3132052 open "/logs/access.log.18.2.gz" flags READ mode 0666
+Apr 29 08:14:43 10.71.57.0 a3132052 open "/logs/access.log.18.3" flags READ mode 0666
+Apr 29 08:14:44 10.71.56.0 a3132052 close "/logs/access.log.18.2.gz" bytes read 20646 written 0
+Apr 29 08:14:44 10.71.56.0 a3132052 [10.71.56.0|get|1|20646|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e322e677a|]
+Apr 29 08:14:44 10.71.57.0 a3132052 close "/logs/access.log.18.3" bytes read 123677 written 0
+Apr 29 08:14:44 10.71.57.0 a3132052 [10.71.57.0|get|1|123677|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e33|]
+Apr 29 08:14:45 10.71.56.0 a3132052 open "/logs/access.log.10.gz" flags READ mode 0666
+Apr 29 08:14:45 10.71.57.0 a3132052 open "/logs/access.log.17.4.gz" flags READ mode 0666
+Apr 29 08:14:45 10.71.57.0 a3132052 close "/logs/access.log.17.4.gz" bytes read 12588 written 0
+Apr 29 08:14:45 10.71.57.0 a3132052 [10.71.57.0|get|0|12588|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e342e677a|]
+Apr 29 08:14:45 10.71.56.0 a3132052 close "/logs/access.log.10.gz" bytes read 83907 written 0
+Apr 29 08:14:45 10.71.56.0 a3132052 [10.71.56.0|get|0|83907|0|0|0|2f6c6f67732f6163636573732e6c6f672e31302e677a|]
+Apr 29 08:14:46 10.71.57.0 a3132052 open "/logs/access.log.17.3.gz" flags READ mode 0666
+Apr 29 08:14:46 10.71.56.0 a3132052 open "/logs/access.log.17.2.gz" flags READ mode 0666
+Apr 29 08:14:47 10.71.57.0 a3132052 close "/logs/access.log.17.3.gz" bytes read 14377 written 0
+Apr 29 08:14:47 10.71.57.0 a3132052 [10.71.57.0|get|1|14377|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e332e677a|]
+Apr 29 08:14:47 10.71.56.0 a3132052 close "/logs/access.log.17.2.gz" bytes read 54242 written 0
+Apr 29 08:14:47 10.71.56.0 a3132052 [10.71.56.0|get|1|54242|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e322e677a|]
+Apr 29 08:14:48 10.71.56.0 a3132052 open "/logs/access.log.17.6.gz" flags READ mode 0666
+Apr 29 08:14:48 10.71.57.0 a3132052 open "/logs/traffic.db" flags READ mode 0666
+Apr 29 08:14:48 10.71.57.0 a3132052 close "/logs/traffic.db" bytes read 45056 written 0
+Apr 29 08:14:48 10.71.57.0 a3132052 [10.71.57.0|get|0|45056|0|0|0|2f6c6f67732f747261666669632e6462|]
+Apr 29 08:14:48 10.71.56.0 a3132052 close "/logs/access.log.17.6.gz" bytes read 22249 written 0
+Apr 29 08:14:48 10.71.56.0 a3132052 [10.71.56.0|get|0|22249|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e362e677a|]
+Apr 29 08:14:49 10.71.57.0 a3132052 open "/logs/access.log.18.3" flags READ mode 0666
+Apr 29 08:14:50 10.71.56.0 a3132052 open "/images/post2.PNG" flags READ mode 0666
+Apr 29 08:14:50 10.71.57.0 a3132052 close "/logs/access.log.18.3" bytes read 123677 written 0
+Apr 29 08:14:50 10.71.57.0 a3132052 [10.71.57.0|get|1|123677|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e33|]
+Apr 29 08:14:51 10.71.56.0 a3132052 close "/images/post2.PNG" bytes read 138426 written 0
+Apr 29 08:14:51 10.71.56.0 a3132052 [10.71.56.0|get|1|138426|0|0|0|2f696d616765732f706f7374322e504e47|]
+Apr 29 08:14:51 10.71.57.0 a3132052 open "/images/post1.PNG" flags READ mode 0666
+Apr 29 08:14:51 10.71.56.0 a3132052 open "/images/favicon.png" flags READ mode 0666
+Apr 29 08:14:52 10.71.56.0 a3132052 close "/images/favicon.png" bytes read 110946 written 0
+Apr 29 08:14:52 10.71.56.0 a3132052 [10.71.56.0|get|1|110946|0|0|0|2f696d616765732f66617669636f6e2e706e67|]
+Apr 29 08:14:52 10.71.57.0 a3132052 close "/images/post1.PNG" bytes read 466238 written 0
+Apr 29 08:14:52 10.71.57.0 a3132052 [10.71.57.0|get|1|466238|0|0|0|2f696d616765732f706f7374312e504e47|]
+Apr 29 08:14:53 10.71.56.0 a3132052 open "/images/about.mp4" flags READ mode 0666
+Apr 29 08:14:53 10.71.57.0 a3132052 open "/images/u-4.png" flags READ mode 0666
+Apr 29 08:14:54 10.71.57.0 a3132052 close "/images/u-4.png" bytes read 2920 written 0
+Apr 29 08:14:54 10.71.57.0 a3132052 [10.71.57.0|get|1|2920|0|0|0|2f696d616765732f752d342e706e67|]
+Apr 29 08:14:55 10.71.57.0 a3132052 open "/images/u-3.png" flags READ mode 0666
+Apr 29 08:14:56 10.71.57.0 a3132052 close "/images/u-3.png" bytes read 3423 written 0
+Apr 29 08:14:56 10.71.57.0 a3132052 [10.71.57.0|get|1|3423|0|0|0|2f696d616765732f752d332e706e67|]
+Apr 29 08:14:57 10.71.57.0 a3132052 open "/images/u-2.png" flags READ mode 0666
+Apr 29 08:14:57 10.71.57.0 a3132052 close "/images/u-2.png" bytes read 3933 written 0
+Apr 29 08:14:57 10.71.57.0 a3132052 [10.71.57.0|get|0|3933|0|0|0|2f696d616765732f752d322e706e67|]
+Apr 29 08:14:58 10.71.57.0 a3132052 open "/images/u-1.png" flags READ mode 0666
+Apr 29 08:15:00 10.71.57.0 a3132052 close "/images/u-1.png" bytes read 3389 written 0
+Apr 29 08:15:00 10.71.57.0 a3132052 [10.71.57.0|get|2|3389|0|0|0|2f696d616765732f752d312e706e67|]
+Apr 29 08:15:01 10.71.57.0 a3132052 open "/images/slider-bg2.jpg" flags READ mode 0666
+Apr 29 08:15:16 10.71.57.0 a3132052 close "/images/slider-bg2.jpg" bytes read 774966 written 0
+Apr 29 08:15:16 10.71.57.0 a3132052 [10.71.57.0|get|15|774966|0|0|0|2f696d616765732f736c696465722d6267322e6a7067|]
+Apr 29 08:15:16 10.71.57.0 a3132052 open "/images/slider-bg.jpg" flags READ mode 0666
+Apr 29 08:15:20 10.71.57.0 a3132052 close "/images/slider-bg.jpg" bytes read 750536 written 0
+Apr 29 08:15:20 10.71.57.0 a3132052 [10.71.57.0|get|4|750536|0|0|0|2f696d616765732f736c696465722d62672e6a7067|]
+Apr 29 08:15:20 10.71.57.0 a3132052 open "/images/s-9.jpg" flags READ mode 0666
+Apr 29 08:15:22 10.71.57.0 a3132052 close "/images/s-9.jpg" bytes read 177114 written 0
+Apr 29 08:15:22 10.71.57.0 a3132052 [10.71.57.0|get|2|177114|0|0|0|2f696d616765732f732d392e6a7067|]
+Apr 29 08:15:23 10.71.57.0 a3132052 open "/images/s-8.jpg" flags READ mode 0666
+Apr 29 08:15:24 10.71.57.0 a3132052 close "/images/s-8.jpg" bytes read 181505 written 0
+Apr 29 08:15:24 10.71.57.0 a3132052 [10.71.57.0|get|1|181505|0|0|0|2f696d616765732f732d382e6a7067|]
+Apr 29 08:15:25 10.71.57.0 a3132052 open "/images/s-7.jpg" flags READ mode 0666
+Apr 29 08:15:26 10.71.57.0 a3132052 close "/images/s-7.jpg" bytes read 224900 written 0
+Apr 29 08:15:26 10.71.57.0 a3132052 [10.71.57.0|get|1|224900|0|0|0|2f696d616765732f732d372e6a7067|]
+Apr 29 08:15:27 10.71.57.0 a3132052 open "/images/s-3.jpg" flags READ mode 0666
+Apr 29 08:15:29 10.71.57.0 a3132052 close "/images/s-3.jpg" bytes read 159792 written 0
+Apr 29 08:15:29 10.71.57.0 a3132052 [10.71.57.0|get|2|159792|0|0|0|2f696d616765732f732d332e6a7067|]
+Apr 29 08:15:30 10.71.57.0 a3132052 open "/images/s-10.jpg" flags READ mode 0666
+Apr 29 08:15:31 10.71.57.0 a3132052 close "/images/s-10.jpg" bytes read 190901 written 0
+Apr 29 08:15:31 10.71.57.0 a3132052 [10.71.57.0|get|1|190901|0|0|0|2f696d616765732f732d31302e6a7067|]
+Apr 29 08:15:32 10.71.57.0 a3132052 open "/images/s-1.jpg" flags READ mode 0666
+Apr 29 08:15:33 10.71.57.0 a3132052 close "/images/s-1.jpg" bytes read 179019 written 0
+Apr 29 08:15:33 10.71.57.0 a3132052 [10.71.57.0|get|1|179019|0|0|0|2f696d616765732f732d312e6a7067|]
+Apr 29 08:15:34 10.71.57.0 a3132052 open "/images/result-img2.jpg" flags READ mode 0666
+Apr 29 08:15:36 10.71.57.0 a3132052 close "/images/result-img2.jpg" bytes read 535761 written 0
+Apr 29 08:15:36 10.71.57.0 a3132052 [10.71.57.0|get|2|535761|0|0|0|2f696d616765732f726573756c742d696d67322e6a7067|]
+Apr 29 08:15:37 10.71.57.0 a3132052 open "/images/result-img.jpg" flags READ mode 0666
+Apr 29 08:15:39 10.71.57.0 a3132052 close "/images/result-img.jpg" bytes read 475808 written 0
+Apr 29 08:15:39 10.71.57.0 a3132052 [10.71.57.0|get|2|475808|0|0|0|2f696d616765732f726573756c742d696d672e6a7067|]
+Apr 29 08:15:40 10.71.57.0 a3132052 open "/images/logo.png" flags READ mode 0666
+Apr 29 08:15:40 10.71.57.0 a3132052 close "/images/logo.png" bytes read 6960 written 0
+Apr 29 08:15:40 10.71.57.0 a3132052 [10.71.57.0|get|1|6960|0|0|0|2f696d616765732f6c6f676f2e706e67|]
+Apr 29 08:15:41 10.71.57.0 a3132052 open "/images/leg5.jpg" flags READ mode 0666
+Apr 29 08:16:12 10.71.57.0 a3132052 close "/images/leg5.jpg" bytes read 9848984 written 0
+Apr 29 08:16:12 10.71.57.0 a3132052 [10.71.57.0|get|31|9848984|0|0|0|2f696d616765732f6c6567352e6a7067|]
+Apr 29 08:16:13 10.71.57.0 a3132052 open "/images/leg4.jpg" flags READ mode 0666
+Apr 29 08:16:29 10.71.56.0 a3132052 close "/images/about.mp4" bytes read 50130993 written 0
+Apr 29 08:16:29 10.71.56.0 a3132052 [10.71.56.0|get|96|50130993|0|0|0|2f696d616765732f61626f75742e6d7034|]
+Apr 29 08:16:29 10.71.56.0 a3132052 open "/images/leg3.jpg" flags READ mode 0666
+Apr 29 08:16:31 10.71.56.0 a3132052 close "/images/leg3.jpg" bytes read 538208 written 0
+Apr 29 08:16:31 10.71.56.0 a3132052 [10.71.56.0|get|2|538208|0|0|0|2f696d616765732f6c6567332e6a7067|]
+Apr 29 08:16:31 10.71.56.0 a3132052 open "/images/leg2.jpg" flags READ mode 0666
+Apr 29 08:16:35 10.71.57.0 a3132052 close "/images/leg4.jpg" bytes read 5301380 written 0
+Apr 29 08:16:35 10.71.57.0 a3132052 [10.71.57.0|get|22|5301380|0|0|0|2f696d616765732f6c6567342e6a7067|]
+Apr 29 08:16:35 10.71.56.0 a3132052 close "/images/leg2.jpg" bytes read 2336286 written 0
+Apr 29 08:16:35 10.71.56.0 a3132052 [10.71.56.0|get|4|2336286|0|0|0|2f696d616765732f6c6567322e6a7067|]
+Apr 29 08:16:36 10.71.57.0 a3132052 open "/images/leg1.jpg" flags READ mode 0666
+Apr 29 08:16:36 10.71.56.0 a3132052 open "/images/gl5.jpg" flags READ mode 0666
+Apr 29 08:16:42 10.71.57.0 a3132052 close "/images/leg1.jpg" bytes read 2102836 written 0
+Apr 29 08:16:42 10.71.57.0 a3132052 [10.71.57.0|get|6|2102836|0|0|0|2f696d616765732f6c6567312e6a7067|]
+Apr 29 08:16:42 10.71.57.0 a3132052 open "/images/gl4.jpg" flags READ mode 0666
+Apr 29 08:16:48 10.71.57.0 a3132052 close "/images/gl4.jpg" bytes read 2207791 written 0
+Apr 29 08:16:48 10.71.57.0 a3132052 [10.71.57.0|get|6|2207791|0|0|0|2f696d616765732f676c342e6a7067|]
+Apr 29 08:16:48 10.71.57.0 a3132052 open "/images/gl3.jpg" flags READ mode 0666
+Apr 29 08:16:49 10.71.56.0 a3132052 close "/images/gl5.jpg" bytes read 5471705 written 0
+Apr 29 08:16:49 10.71.56.0 a3132052 [10.71.56.0|get|13|5471705|0|0|0|2f696d616765732f676c352e6a7067|]
+Apr 29 08:16:50 10.71.56.0 a3132052 open "/images/gl2.jpg" flags READ mode 0666
+Apr 29 08:16:53 10.71.56.0 a3132052 close "/images/gl2.jpg" bytes read 1578693 written 0
+Apr 29 08:16:53 10.71.56.0 a3132052 [10.71.56.0|get|3|1578693|0|0|0|2f696d616765732f676c322e6a7067|]
+Apr 29 08:16:53 10.71.56.0 a3132052 open "/images/gl1.jpg" flags READ mode 0666
+Apr 29 08:16:57 10.71.56.0 a3132052 close "/images/gl1.jpg" bytes read 1364613 written 0
+Apr 29 08:16:57 10.71.56.0 a3132052 [10.71.56.0|get|4|1364613|0|0|0|2f696d616765732f676c312e6a7067|]
+Apr 29 08:16:58 10.71.56.0 a3132052 open "/images/fitness.mp4" flags READ mode 0666
+Apr 29 08:16:58 10.71.57.0 a3132052 close "/images/gl3.jpg" bytes read 2555182 written 0
+Apr 29 08:16:58 10.71.57.0 a3132052 [10.71.57.0|get|10|2555182|0|0|0|2f696d616765732f676c332e6a7067|]
+Apr 29 08:16:59 10.71.57.0 a3132052 open "/images/envelope.png" flags READ mode 0666
+Apr 29 08:16:59 10.71.57.0 a3132052 close "/images/envelope.png" bytes read 2044 written 0
+Apr 29 08:16:59 10.71.57.0 a3132052 [10.71.57.0|get|0|2044|0|0|0|2f696d616765732f656e76656c6f70652e706e67|]
+Apr 29 08:17:00 10.71.56.0 a3132052 close "/images/fitness.mp4" bytes read 1000467 written 0
+Apr 29 08:17:00 10.71.56.0 a3132052 [10.71.56.0|get|2|1000467|0|0|0|2f696d616765732f6669746e6573732e6d7034|]
+Apr 29 08:17:00 10.71.57.0 a3132052 open "/images/client2.png" flags READ mode 0666
+Apr 29 08:17:00 10.71.56.0 a3132052 open "/images/client.png" flags READ mode 0666
+Apr 29 08:17:01 10.71.57.0 a3132052 close "/images/client2.png" bytes read 8681 written 0
+Apr 29 08:17:01 10.71.57.0 a3132052 [10.71.57.0|get|1|8681|0|0|0|2f696d616765732f636c69656e74322e706e67|]
+Apr 29 08:17:01 10.71.56.0 a3132052 close "/images/client.png" bytes read 76070 written 0
+Apr 29 08:17:01 10.71.56.0 a3132052 [10.71.56.0|get|1|76070|0|0|0|2f696d616765732f636c69656e742e706e67|]
+Apr 29 08:17:01 10.71.57.0 a3132052 open "/images/call.png" flags READ mode 0666
+Apr 29 08:17:02 10.71.57.0 a3132052 close "/images/call.png" bytes read 1644 written 0
+Apr 29 08:17:02 10.71.57.0 a3132052 [10.71.57.0|get|1|1644|0|0|0|2f696d616765732f63616c6c2e706e67|]
+Apr 29 08:17:03 10.71.56.0 a3132052 open "/css/Membershipsinformation.css" flags READ mode 0666
+Apr 29 08:17:03 10.71.56.0 a3132052 close "/css/Membershipsinformation.css" bytes read 2752 written 0
+Apr 29 08:17:03 10.71.56.0 a3132052 [10.71.56.0|get|0|2752|0|0|0|2f6373732f4d656d6265727368697073696e666f726d6174696f6e2e637373|]
+Apr 29 08:17:03 10.71.57.0 a3132052 open "/css/Gyminbury.css" flags READ mode 0666
+Apr 29 08:17:04 10.71.56.0 a3132052 open "/css/Bestgyminbury.css" flags READ mode 0666
+Apr 29 08:17:04 10.71.57.0 a3132052 close "/css/Gyminbury.css" bytes read 10365 written 0
+Apr 29 08:17:04 10.71.57.0 a3132052 [10.71.57.0|get|1|10365|0|0|0|2f6373732f47796d696e627572792e637373|]
+Apr 29 08:17:05 10.71.56.0 a3132052 close "/css/Bestgyminbury.css" bytes read 10519 written 0
+Apr 29 08:17:05 10.71.56.0 a3132052 [10.71.56.0|get|1|10519|0|0|0|2f6373732f4265737467796d696e627572792e637373|]
+Apr 29 08:17:05 10.71.57.0 a3132052 open "/css/helpAndSupport.css" flags READ mode 0666
+Apr 29 08:17:05 10.71.56.0 a3132052 open "/css/openinghourse.css" flags READ mode 0666
+Apr 29 08:17:05 10.71.57.0 a3132052 close "/css/helpAndSupport.css" bytes read 14403 written 0
+Apr 29 08:17:05 10.71.57.0 a3132052 [10.71.57.0|get|0|14403|0|0|0|2f6373732f68656c70416e64537570706f72742e637373|]
+Apr 29 08:17:06 10.71.56.0 a3132052 close "/css/openinghourse.css" bytes read 10074 written 0
+Apr 29 08:17:06 10.71.56.0 a3132052 [10.71.56.0|get|1|10074|0|0|0|2f6373732f6f70656e696e67686f757273652e637373|]
+Apr 29 08:17:06 10.71.57.0 a3132052 open "/css/personaltraining.css" flags READ mode 0666
+Apr 29 08:17:07 10.71.56.0 a3132052 open "/css/style.css" flags READ mode 0666
+Apr 29 08:17:07 10.71.57.0 a3132052 close "/css/personaltraining.css" bytes read 17814 written 0
+Apr 29 08:17:07 10.71.57.0 a3132052 [10.71.57.0|get|1|17814|0|0|0|2f6373732f706572736f6e616c747261696e696e672e637373|]
+Apr 29 08:17:07 10.71.56.0 a3132052 close "/css/style.css" bytes read 12932 written 0
+Apr 29 08:17:07 10.71.56.0 a3132052 [10.71.56.0|get|0|12932|0|0|0|2f6373732f7374796c652e637373|]
+Apr 29 08:17:07 10.71.57.0 a3132052 open "/css/leg.css" flags READ mode 0666
+Apr 29 08:17:08 10.71.56.0 a3132052 open "/css/home.css" flags READ mode 0666
+Apr 29 08:17:08 10.71.57.0 a3132052 close "/css/leg.css" bytes read 4128 written 0
+Apr 29 08:17:08 10.71.57.0 a3132052 [10.71.57.0|get|1|4128|0|0|0|2f6373732f6c65672e637373|]
+Apr 29 08:17:09 10.71.57.0 a3132052 open "/css/glute.css" flags READ mode 0666
+Apr 29 08:17:09 10.71.56.0 a3132052 close "/css/home.css" bytes read 56539 written 0
+Apr 29 08:17:09 10.71.56.0 a3132052 [10.71.56.0|get|1|56539|0|0|0|2f6373732f686f6d652e637373|]
+Apr 29 08:17:09 10.71.57.0 a3132052 close "/css/glute.css" bytes read 7197 written 0
+Apr 29 08:17:09 10.71.57.0 a3132052 [10.71.57.0|get|0|7197|0|0|0|2f6373732f676c7574652e637373|]
+Apr 29 08:17:09 10.71.56.0 a3132052 open "/css/fullbody.css" flags READ mode 0666
+Apr 29 08:17:10 10.71.57.0 a3132052 open "/css/chest.css" flags READ mode 0666
+Apr 29 08:17:10 10.71.56.0 a3132052 close "/css/fullbody.css" bytes read 13257 written 0
+Apr 29 08:17:10 10.71.56.0 a3132052 [10.71.56.0|get|1|13257|0|0|0|2f6373732f66756c6c626f64792e637373|]
+Apr 29 08:17:11 10.71.57.0 a3132052 close "/css/chest.css" bytes read 10939 written 0
+Apr 29 08:17:11 10.71.57.0 a3132052 [10.71.57.0|get|1|10939|0|0|0|2f6373732f63686573742e637373|]
+Apr 29 08:17:11 10.71.56.0 a3132052 open "/css/cardio.css" flags READ mode 0666
+Apr 29 08:17:11 10.71.57.0 a3132052 open "/css/back.css" flags READ mode 0666
+Apr 29 08:17:11 10.71.56.0 a3132052 close "/css/cardio.css" bytes read 16384 written 0
+Apr 29 08:17:11 10.71.56.0 a3132052 [10.71.56.0|get|0|16384|0|0|0|2f6373732f63617264696f2e637373|]
+Apr 29 08:17:12 10.71.57.0 a3132052 close "/css/back.css" bytes read 11939 written 0
+Apr 29 08:17:12 10.71.57.0 a3132052 [10.71.57.0|get|1|11939|0|0|0|2f6373732f6261636b2e637373|]
+Apr 29 08:17:12 10.71.56.0 a3132052 open "/css/Arm&Shoulder.css" flags READ mode 0666
+Apr 29 08:17:13 10.71.57.0 a3132052 open "/css/ab&core.css" flags READ mode 0666
+Apr 29 08:17:13 10.71.56.0 a3132052 close "/css/Arm&Shoulder.css" bytes read 10191 written 0
+Apr 29 08:17:13 10.71.56.0 a3132052 [10.71.56.0|get|1|10191|0|0|0|2f6373732f41726d2653686f756c6465722e637373|]
+Apr 29 08:17:13 10.71.57.0 a3132052 close "/css/ab&core.css" bytes read 6894 written 0
+Apr 29 08:17:13 10.71.57.0 a3132052 [10.71.57.0|get|0|6894|0|0|0|2f6373732f616226636f72652e637373|]
+Apr 29 08:17:14 10.71.56.0 a3132052 open "/js/script.js" flags READ mode 0666
+Apr 29 08:17:15 10.71.56.0 a3132052 close "/js/script.js" bytes read 5921 written 0
+Apr 29 08:17:15 10.71.56.0 a3132052 [10.71.56.0|get|1|5921|0|0|0|2f6a732f7363726970742e6a73|]
+Apr 29 08:18:14 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 63154
+Apr 29 08:18:14 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 29 08:18:15 10.71.56.0 a3132052 Connection closed by 10.71.56.0 port 15862
+Apr 29 08:18:15 10.71.56.0 a3132052 session closed for local user a3132052 from [10.71.56.0]
+Apr 29 08:19:06 10.71.57.0 a3132052 Connection from 10.71.57.0 port 32024 on 82.165.90.105 port 22 rdomain ""
+Apr 29 08:19:06 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 32024 ssh2
+Apr 29 08:19:06 10.71.57.0 a3132052 Connection from 10.71.57.0 port 32036 on 82.165.90.105 port 22 rdomain ""
+Apr 29 08:19:07 10.71.57.0 a3132052 Accepted password for a3132052 from 10.71.57.0 port 32036 ssh2
+Apr 29 08:19:07 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 32024 id 0
+Apr 29 08:19:07 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 29 08:19:07 10.71.57.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.57.0 port 32036 id 0
+Apr 29 08:19:07 10.71.57.0 a3132052 session opened for local user a3132052 from [10.71.57.0]
+Apr 29 08:19:09 10.71.57.0 a3132052 open "/css/Membershipsinformation.css" flags READ mode 0666
+Apr 29 08:19:09 10.71.57.0 a3132052 open "/css/Gyminbury.css" flags READ mode 0666
+Apr 29 08:19:09 10.71.57.0 a3132052 close "/css/Membershipsinformation.css" bytes read 2752 written 0
+Apr 29 08:19:09 10.71.57.0 a3132052 [10.71.57.0|get|0|2752|0|0|0|2f6373732f4d656d6265727368697073696e666f726d6174696f6e2e637373|]
+Apr 29 08:19:10 10.71.57.0 a3132052 close "/css/Gyminbury.css" bytes read 10365 written 0
+Apr 29 08:19:10 10.71.57.0 a3132052 [10.71.57.0|get|1|10365|0|0|0|2f6373732f47796d696e627572792e637373|]
+Apr 29 08:19:10 10.71.57.0 a3132052 open "/css/Bestgyminbury.css" flags READ mode 0666
+Apr 29 08:19:11 10.71.57.0 a3132052 open "/css/helpAndSupport.css" flags READ mode 0666
+Apr 29 08:19:11 10.71.57.0 a3132052 close "/css/Bestgyminbury.css" bytes read 10519 written 0
+Apr 29 08:19:11 10.71.57.0 a3132052 [10.71.57.0|get|1|10519|0|0|0|2f6373732f4265737467796d696e627572792e637373|]
+Apr 29 08:19:11 10.71.57.0 a3132052 close "/css/helpAndSupport.css" bytes read 14403 written 0
+Apr 29 08:19:11 10.71.57.0 a3132052 [10.71.57.0|get|0|14403|0|0|0|2f6373732f68656c70416e64537570706f72742e637373|]
+Apr 29 08:19:11 10.71.57.0 a3132052 open "/css/openinghourse.css" flags READ mode 0666
+Apr 29 08:19:12 10.71.57.0 a3132052 open "/css/personaltraining.css" flags READ mode 0666
+Apr 29 08:19:12 10.71.57.0 a3132052 close "/css/openinghourse.css" bytes read 10074 written 0
+Apr 29 08:19:12 10.71.57.0 a3132052 [10.71.57.0|get|1|10074|0|0|0|2f6373732f6f70656e696e67686f757273652e637373|]
+Apr 29 08:19:13 10.71.57.0 a3132052 close "/css/personaltraining.css" bytes read 17814 written 0
+Apr 29 08:19:13 10.71.57.0 a3132052 [10.71.57.0|get|1|17814|0|0|0|2f6373732f706572736f6e616c747261696e696e672e637373|]
+Apr 29 08:19:14 10.71.57.0 a3132052 open "/css/leg.css" flags READ mode 0666
+Apr 29 08:19:14 10.71.57.0 a3132052 close "/css/leg.css" bytes read 4128 written 0
+Apr 29 08:19:14 10.71.57.0 a3132052 [10.71.57.0|get|0|4128|0|0|0|2f6373732f6c65672e637373|]
+Apr 29 08:19:15 10.71.57.0 a3132052 open "/css/home.css" flags READ mode 0666
+Apr 29 08:19:16 10.71.57.0 a3132052 close "/css/home.css" bytes read 56539 written 0
+Apr 29 08:19:16 10.71.57.0 a3132052 [10.71.57.0|get|1|56539|0|0|0|2f6373732f686f6d652e637373|]
+Apr 29 08:19:17 10.71.57.0 a3132052 open "/css/glute.css" flags READ mode 0666
+Apr 29 08:19:17 10.71.57.0 a3132052 close "/css/glute.css" bytes read 7197 written 0
+Apr 29 08:19:17 10.71.57.0 a3132052 [10.71.57.0|get|0|7197|0|0|0|2f6373732f676c7574652e637373|]
+Apr 29 08:19:18 10.71.57.0 a3132052 open "/css/fullbody.css" flags READ mode 0666
+Apr 29 08:19:19 10.71.57.0 a3132052 close "/css/fullbody.css" bytes read 13257 written 0
+Apr 29 08:19:19 10.71.57.0 a3132052 [10.71.57.0|get|1|13257|0|0|0|2f6373732f66756c6c626f64792e637373|]
+Apr 29 08:19:20 10.71.57.0 a3132052 open "/css/chest.css" flags READ mode 0666
+Apr 29 08:19:20 10.71.57.0 a3132052 close "/css/chest.css" bytes read 10939 written 0
+Apr 29 08:19:20 10.71.57.0 a3132052 [10.71.57.0|get|0|10939|0|0|0|2f6373732f63686573742e637373|]
+Apr 29 08:19:21 10.71.57.0 a3132052 open "/css/cardio.css" flags READ mode 0666
+Apr 29 08:19:22 10.71.57.0 a3132052 close "/css/cardio.css" bytes read 16384 written 0
+Apr 29 08:19:22 10.71.57.0 a3132052 [10.71.57.0|get|1|16384|0|0|0|2f6373732f63617264696f2e637373|]
+Apr 29 08:19:22 10.71.57.0 a3132052 open "/css/back.css" flags READ mode 0666
+Apr 29 08:19:23 10.71.57.0 a3132052 close "/css/back.css" bytes read 11939 written 0
+Apr 29 08:19:23 10.71.57.0 a3132052 [10.71.57.0|get|1|11939|0|0|0|2f6373732f6261636b2e637373|]
+Apr 29 08:19:24 10.71.57.0 a3132052 open "/css/Arm&Shoulder.css" flags READ mode 0666
+Apr 29 08:19:25 10.71.57.0 a3132052 close "/css/Arm&Shoulder.css" bytes read 10191 written 0
+Apr 29 08:19:25 10.71.57.0 a3132052 [10.71.57.0|get|1|10191|0|0|0|2f6373732f41726d2653686f756c6465722e637373|]
+Apr 29 08:19:25 10.71.57.0 a3132052 open "/css/ab&core.css" flags READ mode 0666
+Apr 29 08:19:26 10.71.57.0 a3132052 close "/css/ab&core.css" bytes read 6894 written 0
+Apr 29 08:19:26 10.71.57.0 a3132052 [10.71.57.0|get|1|6894|0|0|0|2f6373732f616226636f72652e637373|]
+Apr 29 08:19:26 10.71.57.0 a3132052 open "/css/style.css" flags READ mode 0666
+Apr 29 08:19:27 10.71.57.0 a3132052 close "/css/style.css" bytes read 12932 written 0
+Apr 29 08:19:27 10.71.57.0 a3132052 [10.71.57.0|get|1|12932|0|0|0|2f6373732f7374796c652e637373|]
+Apr 29 08:20:26 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 32036
+Apr 29 08:20:26 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 29 08:20:27 10.71.57.0 a3132052 Connection closed by 10.71.57.0 port 32024
+Apr 29 08:20:27 10.71.57.0 a3132052 session closed for local user a3132052 from [10.71.57.0]
+Apr 29 08:21:31 10.71.57.0 a3132052 sent status No such file
+Apr 29 08:21:30 10.71.56.0 a3132052 Connection from 10.71.56.0 port 23726 on 82.165.90.105 port 22 rdomain ""
+Apr 29 08:21:31 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 23726 ssh2
+Apr 29 08:21:30 10.71.56.0 a3132052 Connection from 10.71.56.0 port 21098 on 82.165.90.105 port 22 rdomain ""
+Apr 29 08:21:31 10.71.56.0 a3132052 Accepted password for a3132052 from 10.71.56.0 port 21098 ssh2
+Apr 29 08:21:32 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 23726 id 0
+Apr 29 08:21:32 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 29 08:21:32 10.71.56.0 a3132052 Starting session: subsystem 'sftp' for a3132052 from 10.71.56.0 port 21098 id 0
+Apr 29 08:21:32 10.71.56.0 a3132052 session opened for local user a3132052 from [10.71.56.0]
+Apr 29 08:21:34 10.71.56.0 a3132052 open "/sitemap.xml" flags READ mode 0666
+Apr 29 08:21:34 10.71.56.0 a3132052 open "/robots.txt" flags READ mode 0666
+Apr 29 08:21:34 10.71.56.0 a3132052 close "/sitemap.xml" bytes read 3105 written 0
+Apr 29 08:21:34 10.71.56.0 a3132052 [10.71.56.0|get|0|3105|0|0|0|2f736974656d61702e786d6c|]
+Apr 29 08:21:34 10.71.56.0 a3132052 close "/robots.txt" bytes read 609 written 0
+Apr 29 08:21:34 10.71.56.0 a3132052 [10.71.56.0|get|0|609|0|0|0|2f726f626f74732e747874|]
+Apr 29 08:21:35 10.71.56.0 a3132052 open "/404.html" flags READ mode 0666
+Apr 29 08:21:35 10.71.56.0 a3132052 open "/Robots.txt.txt" flags READ mode 0666
+Apr 29 08:21:36 10.71.56.0 a3132052 close "/404.html" bytes read 4125 written 0
+Apr 29 08:21:36 10.71.56.0 a3132052 [10.71.56.0|get|1|4125|0|0|0|2f3430342e68746d6c|]
+Apr 29 08:21:36 10.71.56.0 a3132052 close "/Robots.txt.txt" bytes read 609 written 0
+Apr 29 08:21:36 10.71.56.0 a3132052 [10.71.56.0|get|1|609|0|0|0|2f526f626f74732e7478742e747874|]
+Apr 29 08:21:36 10.71.56.0 a3132052 open "/Llms.txt.txt" flags READ mode 0666
+Apr 29 08:21:36 10.71.56.0 a3132052 open "/Membershipsinformation.html" flags READ mode 0666
+Apr 29 08:21:37 10.71.56.0 a3132052 close "/Llms.txt.txt" bytes read 1490 written 0
+Apr 29 08:21:37 10.71.56.0 a3132052 [10.71.56.0|get|1|1490|0|0|0|2f4c6c6d732e7478742e747874|]
+Apr 29 08:21:37 10.71.56.0 a3132052 close "/Membershipsinformation.html" bytes read 9684 written 0
+Apr 29 08:21:37 10.71.56.0 a3132052 [10.71.56.0|get|1|9684|0|0|0|2f4d656d6265727368697073696e666f726d6174696f6e2e68746d6c|]
+Apr 29 08:21:37 10.71.56.0 a3132052 open "/Gyminbury.html" flags READ mode 0666
+Apr 29 08:21:38 10.71.56.0 a3132052 open "/Bestgyminbury.html" flags READ mode 0666
+Apr 29 08:21:38 10.71.56.0 a3132052 close "/Gyminbury.html" bytes read 16421 written 0
+Apr 29 08:21:38 10.71.56.0 a3132052 [10.71.56.0|get|1|16421|0|0|0|2f47796d696e627572792e68746d6c|]
+Apr 29 08:21:38 10.71.56.0 a3132052 close "/Bestgyminbury.html" bytes read 15516 written 0
+Apr 29 08:21:38 10.71.56.0 a3132052 [10.71.56.0|get|0|15516|0|0|0|2f4265737467796d696e627572792e68746d6c|]
+Apr 29 08:21:39 10.71.56.0 a3132052 open "/helpAndSupport.html" flags READ mode 0666
+Apr 29 08:21:39 10.71.56.0 a3132052 open "/openinghourse.html" flags READ mode 0666
+Apr 29 08:21:40 10.71.56.0 a3132052 close "/helpAndSupport.html" bytes read 16273 written 0
+Apr 29 08:21:40 10.71.56.0 a3132052 [10.71.56.0|get|1|16273|0|0|0|2f68656c70416e64537570706f72742e68746d6c|]
+Apr 29 08:21:40 10.71.56.0 a3132052 close "/openinghourse.html" bytes read 10589 written 0
+Apr 29 08:21:40 10.71.56.0 a3132052 [10.71.56.0|get|1|10589|0|0|0|2f6f70656e696e67686f757273652e68746d6c|]
+Apr 29 08:21:40 10.71.56.0 a3132052 open "/personaltrainingpage.html" flags READ mode 0666
+Apr 29 08:21:41 10.71.56.0 a3132052 open "/ab&core.html" flags READ mode 0666
+Apr 29 08:21:41 10.71.56.0 a3132052 close "/personaltrainingpage.html" bytes read 15990 written 0
+Apr 29 08:21:41 10.71.56.0 a3132052 [10.71.56.0|get|1|15990|0|0|0|2f706572736f6e616c747261696e696e67706167652e68746d6c|]
+Apr 29 08:21:41 10.71.56.0 a3132052 close "/ab&core.html" bytes read 13995 written 0
+Apr 29 08:21:41 10.71.56.0 a3132052 [10.71.56.0|get|0|13995|0|0|0|2f616226636f72652e68746d6c|]
+Apr 29 08:21:41 10.71.56.0 a3132052 open "/leg.html" flags READ mode 0666
+Apr 29 08:21:42 10.71.56.0 a3132052 open "/index.html" flags READ mode 0666
+Apr 29 08:21:42 10.71.56.0 a3132052 close "/leg.html" bytes read 13174 written 0
+Apr 29 08:21:42 10.71.56.0 a3132052 [10.71.56.0|get|1|13174|0|0|0|2f6c65672e68746d6c|]
+Apr 29 08:21:43 10.71.56.0 a3132052 open "/glute.html" flags READ mode 0666
+Apr 29 08:21:43 10.71.56.0 a3132052 close "/index.html" bytes read 53026 written 0
+Apr 29 08:21:43 10.71.56.0 a3132052 [10.71.56.0|get|1|53026|0|0|0|2f696e6465782e68746d6c|]
+Apr 29 08:21:43 10.71.56.0 a3132052 open "/fullbody.html" flags READ mode 0666
+Apr 29 08:21:43 10.71.56.0 a3132052 close "/glute.html" bytes read 14057 written 0
+Apr 29 08:21:43 10.71.56.0 a3132052 [10.71.56.0|get|0|14057|0|0|0|2f676c7574652e68746d6c|]
+Apr 29 08:21:44 10.71.56.0 a3132052 open "/contact.html" flags READ mode 0666
+Apr 29 08:21:44 10.71.56.0 a3132052 close "/fullbody.html" bytes read 21172 written 0
+Apr 29 08:21:44 10.71.56.0 a3132052 [10.71.56.0|get|1|21172|0|0|0|2f66756c6c626f64792e68746d6c|]
+Apr 29 08:21:45 10.71.56.0 a3132052 close "/contact.html" bytes read 6067 written 0
+Apr 29 08:21:45 10.71.56.0 a3132052 [10.71.56.0|get|1|6067|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 29 08:21:45 10.71.56.0 a3132052 open "/chest.html" flags READ mode 0666
+Apr 29 08:21:45 10.71.56.0 a3132052 open "/cardio.html" flags READ mode 0666
+Apr 29 08:21:46 10.71.56.0 a3132052 close "/chest.html" bytes read 15759 written 0
+Apr 29 08:21:46 10.71.56.0 a3132052 [10.71.56.0|get|1|15759|0|0|0|2f63686573742e68746d6c|]
+Apr 29 08:21:46 10.71.56.0 a3132052 close "/cardio.html" bytes read 19529 written 0
+Apr 29 08:21:46 10.71.56.0 a3132052 [10.71.56.0|get|1|19529|0|0|0|2f63617264696f2e68746d6c|]
+Apr 29 08:21:46 10.71.56.0 a3132052 open "/back.html" flags READ mode 0666
+Apr 29 08:21:47 10.71.56.0 a3132052 open "/about.html" flags READ mode 0666
+Apr 29 08:21:47 10.71.56.0 a3132052 close "/back.html" bytes read 15132 written 0
+Apr 29 08:21:47 10.71.56.0 a3132052 [10.71.56.0|get|1|15132|0|0|0|2f6261636b2e68746d6c|]
+Apr 29 08:21:47 10.71.56.0 a3132052 close "/about.html" bytes read 15472 written 0
+Apr 29 08:21:47 10.71.56.0 a3132052 [10.71.56.0|get|0|15472|0|0|0|2f61626f75742e68746d6c|]
+Apr 29 08:21:48 10.71.56.0 a3132052 open "/Arm&Shoulder.html" flags READ mode 0666
+Apr 29 08:21:48 10.71.56.0 a3132052 open "/.htaccess" flags READ mode 0666
+Apr 29 08:21:48 10.71.56.0 a3132052 close "/Arm&Shoulder.html" bytes read 14313 written 0
+Apr 29 08:21:48 10.71.56.0 a3132052 [10.71.56.0|get|0|14313|0|0|0|2f41726d2653686f756c6465722e68746d6c|]
+Apr 29 08:21:49 10.71.56.0 a3132052 close "/.htaccess" bytes read 106 written 0
+Apr 29 08:21:49 10.71.56.0 a3132052 [10.71.56.0|get|1|106|0|0|0|2f2e6874616363657373|]
+Apr 29 08:21:50 10.71.56.0 a3132052 open "/logs/access.log.11.gz" flags READ mode 0666
+Apr 29 08:21:50 10.71.56.0 a3132052 open "/logs/access.log.18.1.gz" flags READ mode 0666
+Apr 29 08:21:50 10.71.56.0 a3132052 close "/logs/access.log.11.gz" bytes read 90424 written 0
+Apr 29 08:21:50 10.71.56.0 a3132052 [10.71.56.0|get|0|90424|0|0|0|2f6c6f67732f6163636573732e6c6f672e31312e677a|]
+Apr 29 08:21:51 10.71.56.0 a3132052 close "/logs/access.log.18.1.gz" bytes read 23345 written 0
+Apr 29 08:21:51 10.71.56.0 a3132052 [10.71.56.0|get|1|23345|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e312e677a|]
+Apr 29 08:21:51 10.71.56.0 a3132052 open "/logs/sftp.log" flags READ mode 0666

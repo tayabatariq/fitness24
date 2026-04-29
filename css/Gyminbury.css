@@ -1,0 +1,406 @@
+:root {
+    --f24-cyan: #29d8ff;
+    --f24-dark: #0a0a0a;
+}
+
+/* Container missing tha, isliye layout fix nahi ho raha hoga */
+.f24-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.f24-local-reach {
+    padding: 100px 0;
+    background: #ffffff; /* Page background clean white */
+    border-top: 1px solid #eee;
+    color: #111;
+}
+
+.f24-flex-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.header-text { 
+    flex: 1; 
+}
+
+.cyan-badge {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid var(--f24-cyan);
+    color: var(--f24-cyan);
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.header-text h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.cyan-text { 
+    color: var(--f24-cyan); 
+}
+
+.location-visual {
+    flex: 1;
+    height: 400px; /* Thora height barha di hai visibility ke liye */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass-map-card {
+    background: rgba(255, 255, 255, 0.4); /* Transparency level check karein */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px 30px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 700;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 2;
+}
+
+.map-pulse {
+    width: 12px;
+    height: 12px;
+    background: var(--f24-cyan); /* Yahan pehle --brand-cyan tha, ab theek hai */
+    border-radius: 50%;
+    position: relative;
+}
+
+.map-pulse::after {
+    content: '';
+    position: absolute;
+    width: 100%; height: 100%;
+    background: var(--f24-cyan);
+    border-radius: 50%;
+    animation: pulse-ring 2s infinite;
+}
+
+@keyframes pulse-ring {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(4); opacity: 0; }
+}
+
+@media (max-width: 992px) {
+    .f24-flex-header { 
+        flex-direction: column; 
+        text-align: center; 
+        gap: 40px;
+    }
+    .location-visual {
+        width: 100%;
+        height: 300px;
+    }
+    .header-text h2 {
+        font-size: 2.2rem;
+    }
+}
+
+.f24-live-pulse {
+    padding: 120px 0;
+    background: #08090a;
+    position: relative;
+    overflow: hidden;
+}
+
+.pulse-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+/* Status Pill */
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(41, 216, 255, 0.1);
+    color: var(--f24-cyan);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    border: 1px solid rgba(41, 216, 255, 0.2);
+}
+
+.live-dot {
+    height: 8px; width: 8px; background: #00ff62;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ff62;
+    animation: pulse-ring 2s infinite;
+}
+
+/* Counter Grid */
+.live-counters {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.count-num {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1;
+}
+
+.count-label {
+    color: var(--f24-cyan);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Access Card Animation */
+.pulse-card-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.access-glass-card {
+    width: 350px;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 50px 40px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.scanner-line {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 2px;
+    background: var(--f24-cyan);
+    box-shadow: 0 0 15px var(--f24-cyan);
+    animation: scanMove 3s infinite ease-in-out;
+}
+
+@keyframes scanMove {
+    0%, 100% { top: 10%; }
+    50% { top: 90%; }
+}
+
+.card-content i {
+    font-size: 60px;
+    color: var(--f24-cyan);
+    margin-bottom: 25px;
+    filter: drop-shadow(0 0 10px rgba(41, 216, 255, 0.5));
+}
+
+.access-indicator {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.access-text {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #00ff62;
+    letter-spacing: 2px;
+}
+
+.mini-bar {
+    height: 4px;
+    width: 100%;
+    background: #00ff62;
+    margin-top: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px #00ff62;
+}
+
+@media (max-width: 992px) {
+    .pulse-wrapper { flex-direction: column; text-align: center; gap: 60px; }
+    .live-counters { justify-content: center; }
+}
+.f24-security-section {
+    padding: 120px 0;
+    background: #050505; /* Blacker background to make cyan pop */
+    color: #fff;
+    overflow: hidden;
+}
+
+.security-flex {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+/* Security Visual Card */
+.security-visual {
+    flex: 1;
+    position: relative;
+}
+
+.glass-security-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(41, 216, 255, 0.2);
+    padding: 40px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 40px 100px rgba(0,0,0,0.5);
+}
+
+.security-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.live-status {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.blink-dot {
+    height: 8px; width: 8px; background: #00ff62;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ff62;
+    animation: blink 1.5s infinite;
+}
+
+.security-header i { font-size: 30px; color: var(--brand-cyan); }
+
+.auth-line { margin-bottom: 20px; }
+.auth-line span { display: block; font-size: 0.9rem; margin-bottom: 8px; opacity: 0.8; }
+.status-bar { height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px; }
+.fill-cyan { height: 100%; background: var(--brand-cyan); border-radius: 2px; box-shadow: 0 0 10px var(--brand-cyan); }
+
+/* Content Styling */
+.security-content { flex: 1.2; }
+
+.security-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.security-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.security-list li i { color: var(--brand-cyan); }
+
+/* Decorative Glow */
+.security-glow {
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 300px; height: 300px;
+    background: var(--brand-cyan);
+    filter: blur(120px);
+    opacity: 0.15;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* Mobile Responsive */
+@media (max-width: 992px) {
+    .security-flex { flex-direction: column-reverse; text-align: center; gap: 50px; }
+    .security-list li { justify-content: center; }
+}
+
+:root {
+    --f24-cyan: #29d8ff;
+    --f24-dark: #111;
+    --f24-white: #ffffff;
+}
+
+/* Base Styles */
+.f24-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.cyan-text { color: var(--f24-cyan); }
+.cyan-badge { color: var(--f24-cyan); border: 1px solid var(--f24-cyan); padding: 5px 15px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-bottom: 20px; display: inline-block; }
+
+/* 1. Steps Section */
+.f24-steps-section { padding: 100px 0; background: var(--f24-white); text-align: center; }
+.steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 60px; }
+
+.step-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.03); /* Very subtle shadow */
+    border: 1px solid #f0f0f0;
+    transition: 0.4s;
+    position: relative;
+}
+
+.step-card:hover { transform: translateY(-10px); border-color: var(--f24-cyan); }
+.step-num { position: absolute; top: 20px; right: 30px; font-size: 3rem; font-weight: 900; color: #f5f5f5; z-index: 0; }
+.step-icon i { font-size: 40px; color: var(--f24-cyan); margin-bottom: 25px; position: relative; z-index: 1; }
+
+/* 2. FAQ Section */
+.f24-faq-section { padding: 100px 0; background: #fafafa; }
+.faq-layout { display: grid; grid-template-columns: 1fr 1.5fr; gap: 60px; }
+
+.faq-question {
+    width: 100%; text-align: left; background: #fff; border: 1px solid #eee;
+    padding: 25px; border-radius: 15px; font-weight: 700; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.faq-question:hover { background: #f9feff; border-color: var(--f24-cyan); }
+
+/* 3. Vibe Section */
+.f24-vibe-section { padding: 100px 0; background: var(--f24-white); }
+.vibe-split { display: flex; align-items: center; gap: 80px; }
+
+.vibe-image { flex: 1; position: relative; border-radius: 40px; overflow: hidden; height: 500px; }
+.vibe-image img { width: 100%; height: 100%; object-fit: cover; }
+.vibe-overlay-text { position: absolute; bottom: 30px; left: 30px; background: rgba(255,255,255,0.9); padding: 10px 20px; border-radius: 10px; font-weight: 800; font-size: 0.9rem; }
+
+.vibe-content { flex: 1; }
+.vibe-content h2 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 25px; }
+.vibe-features { margin-top: 30px; }
+.v-feat { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-weight: 600; color: #444; }
+.v-feat i { color: var(--f24-cyan); }
+
+/* Responsive */
+@media (max-width: 992px) {
+    .steps-grid, .faq-layout, .vibe-split { grid-template-columns: 1fr; flex-direction: column; }
+    .vibe-image { width: 100%; height: 350px; }
+}

@@ -1,0 +1,114 @@
+:root {
+    --f24-cyan: #29d8ff;
+    --f24-dark: #111111;
+    --f24-grey: #f8f8f8;
+}
+
+/* Typography Update: Impact-style Font */
+.f24-impact-heading, .f24-box-title {
+    font-family: 'Anton', sans-serif; /* Link this in your head */
+    text-transform: uppercase;
+    line-height: 0.95;
+    letter-spacing: -1px;
+}
+
+.f24-lead-text, .f24-link-team, p {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Hero Membership Styling */
+.f24-hero-membership {
+    padding: 120px 0 60px;
+    background: #fff;
+}
+
+.f24-split-header {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.f24-badge-outline {
+    border: 1px solid #ddd;
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.f24-impact-heading { font-size: 6.5rem; margin: 0; color: var(--f24-dark); }
+.f24-highlight { color: var(--f24-cyan); }
+
+.f24-lead-text { font-size: 1.25rem; line-height: 1.6; color: #555; margin-bottom: 30px; }
+
+/* Bento Grid Styling */
+.f24-feature-bento { padding: 60px 0 120px; background: #fff; }
+.f24-bento-grid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1.2fr; 
+    gap: 20px; 
+}
+
+.f24-bento-box {
+    padding: 50px;
+    border-radius: 30px;
+    border: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.f24-box-title { font-size: 2.2rem; margin: 20px 0 15px; color: var(--f24-dark); }
+.f24-box-icon { font-size: 2rem; color: var(--f24-cyan); }
+
+/* Special Offer Box Styling */
+.f24-highlight-box {
+    background: var(--f24-dark);
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.f24-highlight-box .f24-box-title { color: #fff; }
+.f24-offer-tag { color: var(--f24-cyan); font-weight: 800; font-size: 0.8rem; text-transform: uppercase; }
+
+.f24-btn-action {
+    display: inline-block;
+    margin-top: 20px;
+    background: var(--f24-cyan);
+    color: #000;
+    padding: 15px 35px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* Link Team styling */
+.f24-link-team {
+    text-decoration: none;
+    color: #111;
+    font-weight: 700;
+    border-bottom: 2px solid var(--f24-cyan);
+    padding-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .f24-split-header, .f24-bento-grid { grid-template-columns: 1fr; }
+    .f24-impact-heading { font-size: 4rem; }
+    .f24-hero-membership{
+        padding: 20px;
+    }
+    .f24-bento-box {
+    padding: 50px;
+    border-radius: 30px;
+    border: 1px solid #eee;
+    transition: 0.3s;
+    margin: 20px;
+}
+}

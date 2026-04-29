@@ -1,0 +1,68 @@
+ :root {
+    --brand-cyan: #29d8ff;
+    --brand-purple: #3C0E78;
+    --dark-bg: #0a0118;
+    --text-main: #222222;
+}
+
+body { font-family: 'Inter', sans-serif; color: var(--text-main); line-height: 1.6; }
+
+.wrapper-wide { max-width: 1300px; margin: 0 auto; padding: 0 40px; }
+.wrapper-slim { max-width: 900px; margin: 0 auto; padding: 0 40px; }
+
+/* Section 1: Anatomy */
+.leg-anatomy { padding: 50px 0; background: #fff; }
+.anatomy-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; align-items: center; }
+.ultra-title { font-size: 5rem; font-family: 'Montserrat', sans-serif; font-weight: 900; line-height: 0.9; margin-bottom: 20px; }
+.cyan-stroke { -webkit-text-stroke: 1.5px var(--brand-purple); color: transparent; }
+.stat-group { display: flex; gap: 30px; margin-top: 40px; }
+.s-box h4 { font-size: 2.5rem; color: var(--brand-cyan); font-weight: 900; }
+.anatomy-visual { position: relative; }
+.anatomy-visual img { width: 100%; border-radius: 40px; }
+.floating-box-cyan { position: absolute; top: 20px; left: -20px; background: var(--brand-cyan); padding: 15px 30px; font-weight: 800; border-radius: 10px; box-shadow: 10px 10px 30px rgba(0,0,0,0.15); }
+
+/* Section 2: Squat Lab */
+.squat-lab { padding: 100px 0; background: #fcfaff; border-radius: 100px 100px 0 0; }
+.lab-header { text-align: center; margin-bottom: 60px; }
+.lab-header i { font-size: 50px; color: var(--brand-cyan); }
+.technique-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.tech-item { background: #fff; padding: 40px; border-radius: 25px; border: 1px solid #eee; transition: 0.3s; }
+.highlighted-purple { background: var(--brand-purple); color: #fff; transform: scale(1.05); }
+
+/* Section 3: Hamstring */
+.ham-power { padding: 120px 0; }
+.flex-reverse { display: flex; flex-direction: row-reverse; gap: 80px; align-items: center; }
+.ham-image img { width: 100%; border-radius: 100% 100% 0 0; height: 500px; object-fit: cover; border: 10px solid var(--brand-cyan); }
+.benefit-list { list-style: none; margin-top: 30px; }
+.benefit-list li { margin-bottom: 15px; display: flex; gap: 10px; align-items: flex-start; }
+.benefit-list i { color: var(--brand-cyan); font-size: 20px; }
+
+/* Section 4: Unilateral (Dark) */
+.uni-brand-bg { padding: 100px 0; background: var(--brand-purple); color: #fff; border-radius: 50px; }
+.uni-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.cyan-text { color: var(--brand-cyan); }
+.u-card { background: rgba(255,255,255,0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px; border-left: 5px solid var(--brand-cyan); }
+
+/* Section 5: Calves */
+.calf-def { padding: 120px 0; text-align: center; }
+.calf-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 60px; }
+.calf-box { padding: 30px; border-bottom: 3px solid #f0f0f0; transition: 0.3s; }
+.calf-box:hover { border-color: var(--brand-purple); transform: translateY(-10px); }
+.calf-box i { font-size: 40px; color: var(--brand-purple); }
+
+/* Section 6: Finisher */
+.leg-finisher { height: 600px; background: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200') center/cover; }
+.finisher-overlay { height: 100%; background: rgba(10, 1, 24, 0.85); display: flex; align-items: center; justify-content: center; color: #fff; text-align: center; }
+.circuit-flex { display: flex; justify-content: center; gap: 40px; margin: 40px 0; }
+.c-item span { display: block; color: var(--brand-cyan); font-weight: 700; text-transform: uppercase; }
+.c-item strong { font-size: 2rem; }
+.join-btn { background: var(--brand-cyan); border: none; padding: 18px 40px; font-weight: 800; border-radius: 50px; cursor: pointer; transition: 0.3s; }
+.join-btn:hover { background: #fff; transform: scale(1.1); }
+
+/* Responsive */
+@media (max-width: 992px) {
+    .anatomy-grid, .flex-reverse, .technique-grid, .uni-grid, .calf-grid { grid-template-columns: 1fr; display: flex; flex-direction: column; }
+    .ultra-title { font-size: 3rem; }
+.ham-power { padding: 0px ; }
+
+}
