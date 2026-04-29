@@ -349,6 +349,274 @@ padding-bottom: 10px !important;
     align-items: center;
     padding: 10px;
 }
+
+
+/* Features Section Styling */
+.features-section {
+    padding: 80px 0 !important; 
+    background-color: #0a0a0a; /* Dark professional theme */
+    color: #fff;
+    padding-bottom: 10px !important;
+    text-align: center;
+}
+
+.section-header {
+    margin-bottom: 50px;
+}
+
+.section-subtitle {
+    color: #aaa;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 15px auto 0;
+}
+
+/* Grid Layout */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* Feature Cards with subtle glassmorphism */
+.feature-card {
+    background: rgba(255, 255, 255, 0.05); /* Thora sa bright background */
+    padding: 40px 30px;
+    border-radius: 20px; /* Thore zyada rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); /* Glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    
+    /* Elegant Shadow: Pehla layer soft shadow hai, doosra thora glow */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 
+                0 0 1px rgba(255, 255, 255, 0.1);
+    
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy transition */
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Hover Effect: Card thora upar uthega aur shadow glow karegi */
+.feature-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-12px); /* Card lifts up */
+    border-color: #ff0000; /* Aapka brand red color */
+    
+    /* Red Glow Shadow (Agar theme red hai) */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 
+                0 0 20px rgba(255, 0, 0, 0.2); 
+}
+
+/* Optional: Ek subtle light effect card ke andar */
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.feature-card:hover::before {
+    left: -10%;
+    top: -10%;
+}
+
+.feature-card h3{
+    color: #000;
+}
+.feature-card:hover {
+    background: rgba(255, 255, 255, 0.07);
+    transform: translateY(-10px);
+    border-color:  var(--accent-cyan); /* Use your brand primary color here */
+}
+
+.feature-icon {
+    font-size: 40px;
+    color:  var(--accent-cyan); /* Primary Brand Color */
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.feature-card p {
+    color: #ccc;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.cta-container {
+    margin-top: 40px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .features-section {
+        padding: 60px 20px;
+    }
+    
+    .feature-card {
+        text-align: center;
+        padding: 30px 20px;
+    }
+}
+
+/* Color Palette: Cyan: #00d2ff, Dark: #111 */
+.hero-about-section {
+    padding: 100px 0;
+    background-color: #ffffff; /* Clean white background */
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Typography Styling */
+.hero-text-content {
+    flex: 1;
+}
+
+.sub-heading {
+    color: #00d2ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.hero-text-content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #111;
+    margin-bottom: 25px;
+}
+
+.hero-text-content h1 .highlight {
+    color: #00d2ff;
+}
+
+.description {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Icons Grid */
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: #222;
+}
+
+.info-item i {
+    color: #00d2ff;
+}
+
+/* CTA Button */
+.cta-primary {
+    display: inline-block;
+    padding: 16px 35px;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.cta-primary:hover {
+    background: #00d2ff;
+    transform: translateY(-3px);
+}
+
+/* Image Styling */
+.hero-image-container {
+    flex: 1;
+    position: relative;
+}
+
+.main-img-wrapper {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+}
+
+.main-img-wrapper img {
+    width: 100%;
+    display: block;
+    transition: 0.5s ease;
+}
+
+/* Floating Badge */
+.experience-badge {
+    position: absolute;
+    bottom: 30px;
+    left: -30px;
+    background: #111;
+    color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.experience-badge h3 {
+    color: #00d2ff;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.experience-badge p {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 992px) {
+    .flex-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text-content h1 {
+        font-size: 36px;
+    }
+    .info-grid {
+        justify-items: center;
+    }
+    .experience-badge {
+        position: static;
+        margin-top: 20px;
+        left: 0;
+    }
+}
+
+
 /* No Joining Fee Banner Styling */
 .no-join-glass-tag {
     display: inline-flex;
