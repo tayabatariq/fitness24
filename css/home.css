@@ -1341,6 +1341,303 @@ padding-bottom: 10px !important;
     position: relative;
     display: inline-block;
 }
+.features-section {
+    padding: 100px 0;
+    background: #ffffff; /* Simple white background */
+    color: #111;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+/* Left Content */
+.features-intro {
+    flex: 1;
+}
+
+.tagline {
+    color: #00d2ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.features-intro h2 {
+    font-size: 42px;
+    margin: 15px 0 25px;
+    line-height: 1.2;
+}
+
+.features-intro p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.btn-outline {
+    padding: 12px 30px;
+    border: 2px solid #111;
+    color: #111;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background: #111;
+    color: #fff;
+}
+
+/* Right Feature Cards */
+.features-list {
+    flex: 1.2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.feature-card {
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.feature-card:hover {
+    border-color: #00d2ff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 210, 255, 0.1);
+    color: #00d2ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feature-info h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.feature-info p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .flex-row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon-box { margin: 0 auto 20px; }
+    .features-list { grid-template-columns: 1fr; width: 100%; }
+}
+.programs-section {
+    padding: 100px 0;
+    background: #fdfdfd; /* Extremely light off-white */
+    color: #111;
+}
+
+.section-header-split {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 60px;
+    gap: 40px;
+}
+
+.header-left { flex: 1; }
+.header-right { flex: 1; border-left: 3px solid #00d2ff; padding-left: 30px; }
+
+.header-right p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Layout for Cards */
+.program-display {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.program-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s ease;
+}
+
+.program-card:nth-child(even) {
+    flex-direction: row-reverse; /* Zig-zag layout */
+}
+
+.prog-img {
+    flex: 1;
+    height: 350px;
+}
+
+.prog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prog-detail {
+    flex: 1;
+    padding: 60px;
+}
+
+.prog-detail h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.prog-detail p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.prog-points {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.prog-points li {
+    font-weight: 700;
+    font-size: 14px;
+    color: #00d2ff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.program-card:hover {
+    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+    transform: scale(1.01);
+}
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+    .section-header-split { flex-direction: column; align-items: flex-start; }
+    .program-card, .program-card:nth-child(even) { flex-direction: column; }
+    .prog-detail { padding: 30px; }
+}
+.perks-section {
+    padding: 100px 0;
+    background: #ffffff; /* Simple white background */
+    color: #111;
+}
+
+.section-header-left {
+    max-width: 600px;
+    margin-bottom: 60px;
+}
+
+.sub-heading {
+    color: #00d2ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.perks-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cyan-text {
+    color: #00d2ff;
+}
+
+.perks-section p {
+    color: #666;
+    line-height: 1.7;
+}
+
+/* Grid Layout */
+.perks-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.perk-card {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.perk-card:hover {
+    border-left: 5px solid #00d2ff; /* Interactive edge */
+    box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+    transform: translateX(5px);
+}
+
+.perk-icon {
+    font-size: 28px;
+    color: #00d2ff;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    background: #f9f9f9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perk-text h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.perk-text p {
+    font-size: 15px;
+    color: #555;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .perks-grid {
+        grid-template-columns: 1fr;
+    }
+    .perk-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 
 .testimonial-main-title::after {
     content: '';
