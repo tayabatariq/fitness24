@@ -1639,6 +1639,221 @@ padding-bottom: 10px !important;
     }
 }
 
+.additional-perks-section {
+    padding: 100px 0;
+    background: #f9f9f9;
+    color: #111;
+}
+
+.additional-perks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.additional-perk-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.additional-perk-card:hover {
+    border-top: 5px solid #00d2ff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+    transform: translateY(-5px);
+}
+
+.additional-perk-card .perk-icon {
+    margin-bottom: 15px;
+}
+
+.additional-perk-card .perk-text h3 {
+    margin-bottom: 10px;
+}
+
+/* Mobile Responsive for additional perks */
+@media (max-width: 768px) {
+    .additional-perks-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.services-section {
+    padding: 100px 0;
+    background: #ffffff;
+    color: #111;
+}
+
+.services-section .section-header-left h2 {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.services-flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 20px;
+    background: #fff;
+    border: 5px solid #00d2ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.service-item:hover {
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    border-color: #3C0E78;
+}
+
+.service-item i {
+    font-size: 50px;
+    color: #00d2ff;
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #3C0E78;
+}
+
+.service-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .services-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-item {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.highlights-section {
+    padding: 100px 0;
+    background: #f9f9f9;
+    color: #111;
+}
+
+.highlights-section .section-header-left h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.highlights-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.highlights-list li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    border-left: 5px solid #00d2ff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.highlights-list li:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.highlights-list li i {
+    color: #00d2ff;
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .highlights-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+.tips-section {
+    padding: 100px 0;
+    background: #ffffff;
+    color: #111;
+}
+
+.tips-section .section-header-left h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+.tips-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tip-card {
+    padding: 50px 30px;
+    background: #f9f9f9;
+    border-radius: 20px;
+    border: 2px solid #00d2ff;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.tip-card:hover {
+    background: #00d2ff;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.tip-card h3 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.tip-card p {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .tips-section .section-header-left h2 {
+        font-size: 40px;
+    }
+    .tip-card {
+        padding: 30px 20px;
+    }
+}
+
 .testimonial-main-title::after {
     content: '';
     position: absolute;
