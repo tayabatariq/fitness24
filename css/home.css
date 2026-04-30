@@ -631,6 +631,97 @@ padding-bottom: 10px !important;
     position: relative;
 }
 
+.gallery-section {
+    padding: 100px 0;
+    background: #000;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.bento-item {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    background: #111;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bento-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+/* Specific Sizes */
+.bento-item.large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.bento-item.tall {
+    grid-row: span 2;
+}
+
+.bento-item.wide {
+    grid-column: span 2;
+}
+
+/* Hover Content */
+.bento-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    color: #fff;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+.bento-item:hover .bento-overlay {
+    opacity: 1;
+}
+
+.bento-item:hover img {
+    transform: scale(1.1);
+}
+
+.bento-overlay h3 {
+    font-size: 20px;
+    color: #00d2ff;
+    margin-bottom: 5px;
+}
+
+.bento-overlay p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 992px) {
+    .bento-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bento-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .bento-item {
+        height: 250px;
+    }
+}
 .tag-main {
     margin: 0;
     font-weight: 800;
@@ -1245,8 +1336,8 @@ padding-bottom: 10px !important;
 .testimonial-main-title {
     font-size: 38px;
     font-weight: 800;
-    color: #000;
-    margin-bottom: 70px;
+    color: #ffffff;
+    margin-bottom: 10px;
     position: relative;
     display: inline-block;
 }
@@ -1257,7 +1348,7 @@ padding-bottom: 10px !important;
     bottom: -8px;
     left: 50%;
     transform: translateX(-50%);
-    width: 30%;
+    width: 100%;
     height: 4px;
 
     background-color: var(--brand-cyan);
@@ -1315,7 +1406,84 @@ padding-bottom: 10px !important;
     font-weight: 700;
     margin-bottom: 12px;
 }
+.bento-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.roadmap-section {
+    padding: 80px 0;
+    background: #ffffff; /* Pure simple white background */
+    color: #111;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #111;
+}
+
+.cyan-text {
+    color: #00d2ff; /* Your theme Cyan */
+}
+
+.section-desc {
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Grid Layout */
+.roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+/* Roadmap Item Styling */
+.roadmap-item {
+    padding: 30px;
+    background: #f8f8f8; /* Very light gray for subtle separation */
+    border-top: 4px solid #00d2ff; /* Cyan accent on top */
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.roadmap-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.roadmap-icon {
+    font-size: 32px;
+    font-weight: 900;
+    color: rgba(0, 210, 255, 0.2); /* Faded Cyan number */
+    margin-bottom: 15px;
+}
+
+.roadmap-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.roadmap-text p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .roadmap-grid {
+        grid-template-columns: 1fr;
+    }
+}
 .customer-quote {
     font-size: 16px;
     line-height: 1.6;
