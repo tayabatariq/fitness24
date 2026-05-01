@@ -610,3 +610,45 @@ clip-path: polygon(10% 0%, 90% 0%, 80% 100%, 20% 100%);
 
 
 
+
+/* Custom Dropdown */
+.nav-dropdown {
+    position: relative;
+    list-style: none;
+}
+
+.nav-dropdown a {
+    text-decoration: none;
+    display: block;
+}
+
+/* Hidden by default */
+.nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #000000;
+    min-width: 220px;
+    border-radius: 8px;
+    padding: 0;
+    z-index: 1000;
+}
+
+.nav-dropdown-menu li {
+    list-style: none;
+}
+
+.nav-dropdown-menu li a {
+    padding: 12px 15px;
+    color: #ffffff;
+}
+
+.nav-dropdown-menu li a:hover {
+    background: #030000;
+}
+
+/* Show on hover */
+.nav-dropdown:hover .nav-dropdown-menu {
+    display: block;
+}
