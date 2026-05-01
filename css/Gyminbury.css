@@ -385,6 +385,17 @@
 
 .faq-question:hover { background: #f9feff; border-color: var(--f24-cyan); }
 
+.faq-answer {
+    display: none;
+    padding: 0 25px 20px;
+    color: #555;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+.faq-item.active .faq-answer { display: block; }
+.faq-item.active .faq-question { border-color: var(--f24-cyan); color: var(--f24-cyan); }
+
 /* 3. Vibe Section */
 .f24-vibe-section { padding: 100px 0; background: var(--f24-white); }
 .vibe-split { display: flex; align-items: center; gap: 80px; }
@@ -401,6 +412,18 @@
 
 /* Responsive */
 @media (max-width: 992px) {
-    .steps-grid, .faq-layout, .vibe-split { grid-template-columns: 1fr; flex-direction: column; }
-    .vibe-image { width: 100%; height: 350px; }
+    .steps-grid { grid-template-columns: 1fr; }
+    .faq-layout { grid-template-columns: 1fr; gap: 30px; }
+    .faq-info { text-align: center; }
+    .vibe-split { flex-direction: column; gap: 40px; }
+    .vibe-image { width: 100%; height: 300px; }
+    .vibe-content h2 { font-size: 2.2rem; }
+    .f24-steps-section, .f24-faq-section, .f24-vibe-section { padding: 60px 0; }
+}
+
+@media (max-width: 576px) {
+    .steps-grid { grid-template-columns: 1fr; }
+    .step-card { padding: 30px 20px; }
+    .faq-question { padding: 18px 20px; font-size: 0.9rem; }
+    .faq-answer { padding: 0 20px 18px; }
 }

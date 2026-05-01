@@ -295,9 +295,17 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-    .spec-inner, .stats-grid { flex-direction: column; grid-template-columns: 1fr; }
-    .btn-white-outline { margin-left: 0; margin-top: 15px; width: 100%; }
-    .btn-cyan-fill { width: 100%; }
+    .spec-inner { flex-direction: column; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .btn-white-outline { margin-left: 0; margin-top: 15px; display: block; text-align: center; }
+    .btn-cyan-fill { display: block; text-align: center; }
+    .cta-glass-box { padding: 50px 25px; border-radius: 30px; }
+    .f24-final-cta, .f24-reviews { padding: 60px 0; }
+}
+
+@media (max-width: 480px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .stat-box h2 { font-size: 2.2rem; }
 }
 :root {
     --f24-cyan: #29d8ff;
@@ -445,11 +453,145 @@
 .tag-icon { color: var(--f24-cyan); font-weight: bold; }
 .tag-txt { font-weight: 800; font-size: 0.8rem; text-transform: uppercase; color: #111; }
 
-/* Responsive */
+/* Arsenal Section */
+.f24-arsenal {
+    padding: 100px 0;
+    background: #08090a;
+}
+
+.arsenal-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.arsenal-header h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    margin: 15px 0 12px;
+}
+
+.arsenal-header p {
+    color: rgba(255,255,255,0.6);
+    font-size: 1.05rem;
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.arsenal-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.arsenal-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.35s;
+}
+
+.arsenal-card:hover {
+    border-color: var(--f24-cyan);
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+}
+
+.arsenal-img {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+
+.arsenal-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.arsenal-card:hover .arsenal-img img {
+    transform: scale(1.06);
+}
+
+.arsenal-num {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: rgba(255,255,255,0.15);
+    line-height: 1;
+}
+
+.arsenal-body {
+    padding: 30px;
+}
+
+.arsenal-icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(41,216,255,0.12);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.arsenal-icon i {
+    font-size: 1.3rem;
+    color: var(--f24-cyan);
+}
+
+.arsenal-body h3 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.arsenal-body p {
+    color: rgba(255,255,255,0.55);
+    font-size: 0.9rem;
+    line-height: 1.65;
+    margin-bottom: 20px;
+}
+
+.arsenal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.arsenal-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.88rem;
+    font-weight: 600;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.arsenal-list li:last-child { border-bottom: none; }
+.arsenal-list li i { color: var(--f24-cyan); font-size: 0.8rem; }
+
+/* anim-delay for arsenal cards */
+.anim-delay-1 { animation-delay: 0.15s; }
+.anim-delay-2 { animation-delay: 0.3s; }
+
 @media (max-width: 992px) {
-    .spec-main-layout { grid-template-columns: 1fr; }
-    .spec-grid-inner { grid-template-columns: 1fr; }
-    .spec-sidebar { flex-direction: row; overflow-x: auto; padding-bottom: 15px; }
-    .spec-nav-item { min-width: 250px; }
-    .spec-nav-item.active { transform: translateY(-5px); }
+    .f24-arsenal { padding: 60px 0; }
+    .arsenal-grid { grid-template-columns: 1fr; gap: 20px; }
+    .arsenal-header h2 { font-size: 2.2rem; }
+    .arsenal-img { height: 200px; }
+}
+
+@media (max-width: 576px) {
+    .arsenal-header h2 { font-size: 1.8rem; }
+    .arsenal-body { padding: 22px 20px; }
+    .arsenal-img { height: 180px; }
 }

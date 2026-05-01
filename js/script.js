@@ -44,27 +44,22 @@ function showSlides() {
     let slides = document.querySelectorAll(".slide");
     let dots = document.querySelectorAll(".dot");
 
-    // Sab slides hide karein
+    if (!slides.length) return;
+
     slides.forEach(s => s.style.display = "none");
-    
-    // Sab dots se active class hatayein (Across all slides)
     dots.forEach(d => d.classList.remove("active"));
 
     slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1 }
+    if (slideIndex > slides.length) { slideIndex = 1; }
 
-    // Current slide show karein
     slides[slideIndex - 1].style.display = "block";
-    
-    // Sahi dot ko active karein
-    // Kyunki har slide mein dots ka pura set hai, hum index ke hisab se sab sets ke sahi dot ko active karenge
+
     document.querySelectorAll(`.pagination`).forEach(p => {
         p.children[slideIndex - 1].classList.add("active");
     });
 
-    // Timer ko clear karke dobara set karein taake double slides na chalein
     clearTimeout(slideTimer);
-    slideTimer = setTimeout(showSlides, 3000); 
+    slideTimer = setTimeout(showSlides, 3000);
 }
 
 // Manual click function
@@ -185,6 +180,49 @@ window.addEventListener('load', () => {
     initSlider('f24Slider', 'f24Dots', 3000);
     initSlider('pricingSlider', 'pricingDots', 3500);
 });
+
+// Spec tabs (Bestgyminbury page)
+function openSpec(e, tabId) {
+    e.preventDefault();
+    document.querySelectorAll('.spec-tab-content').forEach(function(t) { t.style.display = 'none'; });
+    document.querySelectorAll('.spec-nav-item').forEach(function(b) { b.classList.remove('active'); });
+    var tab = document.getElementById(tabId);
+    if (tab) tab.style.display = 'block';
+    e.currentTarget.classList.add('active');
+}
+// Show first tab on load
+(function() {
+    var first = document.querySelector('.spec-tab-content');
+    if (first) {
+        document.querySelectorAll('.spec-tab-content').forEach(function(t) { t.style.display = 'none'; });
+        first.style.display = 'block';
+    }
+})();
+
+// FAQ accordion
+document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        var item = this.closest('.faq-item');
+        var isOpen = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(function(i) { i.classList.remove('active'); });
+        if (!isOpen) item.classList.add('active');
+    });
+});
+
+// Scroll reveal animations
+(function() {
+    var els = document.querySelectorAll('.anim-reveal');
+    if (!els.length) return;
+    var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.12 });
+    els.forEach(function(el) { observer.observe(el); });
+})();
 
 
 

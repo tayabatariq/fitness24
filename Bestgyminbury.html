@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -75,6 +75,15 @@
                     <a href="chest.html">Chest Exercises</a>
                     <a href="fullbody.html">Full Body</a>
                     <a href="cardio.html">Cardio</a>
+                </div>
+            </div>
+            <div class="nav-item-dropdown">
+                <a href="#" class="dropdown-trigger" onclick="toggleDropdown(event, this)">Our Gym <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-panel">
+                    <a href="Gyminbury.html">Gym In Bury</a>
+                    <a href="Bestgyminbury.html">Best Gym In Bury</a>
+                    <a href="24-hour-gym-bury.html">24 Hour Gym Bury</a>
+                    <a href="private-gym-bury.html">Private Gym Bury</a>
                 </div>
             </div>
             <a href="https://secure.ashbournemanagement.co.uk/signupUK/index.aspx?fn=GRCC4">Sign Up</a>
@@ -169,50 +178,63 @@
         </div>
     </div>
 </section>
-<section class="f24-spec-tabs">
+<section class="f24-arsenal">
     <div class="f24-container">
-        <div class="spec-header anim-reveal">
+        <div class="arsenal-header anim-reveal">
             <span class="cyan-badge">World-Class Gear</span>
             <h2>The Elite <span class="cyan-text">Arsenal</span></h2>
             <p>Bury’s only facility curated with industry-leading Hammer Strength and Matrix hardware.</p>
         </div>
 
-        <div class="spec-main-layout">
-            <div class="spec-sidebar anim-reveal">
-                <button class="spec-nav-item active" onclick="openSpec(event, 'strength')">
-                    <span class="nav-num">01</span>
-                    <span class="nav-label">Strength <small>Hammer Strength</small></span>
-                </button>
-                <button class="spec-nav-item" onclick="openSpec(event, 'cardio')">
-                    <span class="nav-num">02</span>
-                    <span class="nav-label">Cardio <small>Matrix LED Gear</small></span>
-                </button>
-                <button class="spec-nav-item" onclick="openSpec(event, 'functional')">
-                    <span class="nav-num">03</span>
-                    <span class="nav-label">Functional <small>Turf & Weights</small></span>
-                </button>
+        <div class="arsenal-grid">
+            <div class="arsenal-card anim-reveal">
+                <div class="arsenal-img">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800" alt="Hammer Strength Equipment">
+                    <div class="arsenal-num">01</div>
+                </div>
+                <div class="arsenal-body">
+                    <div class="arsenal-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <h3>Hammer Strength®</h3>
+                    <p>Plate-loaded machines engineered for the most natural motion. Built for serious lifters who demand precision.</p>
+                    <ul class="arsenal-list">
+                        <li><i class="fa-solid fa-check"></i> Iso-Lateral Technology</li>
+                        <li><i class="fa-solid fa-check"></i> Explosive Power Training</li>
+                        <li><i class="fa-solid fa-check"></i> 50kg+ Dumbbell Range</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="spec-display anim-reveal">
-                <div id="strength" class="spec-tab-content active">
-                    <div class="spec-grid-inner">
-                        <div class="spec-info-box">
-                            <h3 class="brand-tag">Hammer Strength®</h3>
-                            <p>Engineered for performance. Our plate-loaded machines provide the most natural motion for serious lifters.</p>
-                            <ul class="fancy-spec-list">
-                                <li><i class="fa-solid fa-circle-nodes"></i> Iso-Lateral Tech</li>
-                                <li><i class="fa-solid fa-bolt"></i> Explosive Power Training</li>
-                                <li><i class="fa-solid fa-layer-group"></i> 50kg+ Dumbbell Range</li>
-                            </ul>
-                        </div>
-                        <div class="spec-visual-box">
-                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800" alt="Gym Equipment">
-                            <div class="floating-tag">
-                                <span class="tag-icon"><i class="fa-solid fa-microchip"></i></span>
-                                <span class="tag-txt">Precision Engineering</span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="arsenal-card anim-reveal anim-delay-1">
+                <div class="arsenal-img">
+                    <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=800" alt="Matrix Cardio Equipment">
+                    <div class="arsenal-num">02</div>
+                </div>
+                <div class="arsenal-body">
+                    <div class="arsenal-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>Matrix LED Cardio</h3>
+                    <p>Premium Matrix consoles with LED displays. High-performance treadmills, bikes, and rowers for serious conditioning.</p>
+                    <ul class="arsenal-list">
+                        <li><i class="fa-solid fa-check"></i> LED Performance Consoles</li>
+                        <li><i class="fa-solid fa-check"></i> Full Cardio Suite</li>
+                        <li><i class="fa-solid fa-check"></i> Heart Rate Monitoring</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="arsenal-card anim-reveal anim-delay-2">
+                <div class="arsenal-img">
+                    <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800" alt="Functional Training Area">
+                    <div class="arsenal-num">03</div>
+                </div>
+                <div class="arsenal-body">
+                    <div class="arsenal-icon"><i class="fa-solid fa-weight-hanging"></i></div>
+                    <h3>Functional &amp; Turf</h3>
+                    <p>Open turf zone with sleds, kettlebells, resistance bands, and everything needed for functional strength work.</p>
+                    <ul class="arsenal-list">
+                        <li><i class="fa-solid fa-check"></i> Dedicated Turf Zone</li>
+                        <li><i class="fa-solid fa-check"></i> Sled &amp; Functional Kit</li>
+                        <li><i class="fa-solid fa-check"></i> Cable &amp; Pulley Systems</li>
+                    </ul>
                 </div>
             </div>
         </div>
